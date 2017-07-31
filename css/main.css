@@ -25,6 +25,7 @@ GENERAL STYLING
 ******************************************/
 
 body {
+    background-color: #F6F7F9;
     /*Remove the margin around the browser window.*/
     margin: 0;
     font-family: monospace;
@@ -39,11 +40,16 @@ a {
     text-decoration: none;
 }
 
+hr {
+    border: 1px solid #E97633;
+    width: 95%;
+}
+
 .horizontal-list li {
     display: inline-block;
 }
 
-.social-wrapper li a{
+.social-wrapper li a {
     background-color: #495259;
     border: 2px solid #000;
     border-radius: 5px;
@@ -55,6 +61,7 @@ a {
     background-color: #E97633;
     color: #495259;
 }
+
 
 /******************************************
 HEADER STYLING
@@ -83,7 +90,7 @@ HEADER STYLING
     margin: auto 30px;
 }
 
-#primary-navigation li a{
+#primary-navigation li a {
     padding: 15px;
 }
 
@@ -99,7 +106,6 @@ HOME STYLING
 ******************************************/
 
 #home {
-    background-color: #F6F7F9;
     text-align: center;
 }
 
@@ -117,12 +123,39 @@ HOME STYLING
 
 #home-social {
     margin: 2em auto 0;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
+
 
 /******************************************
 PORTFOLIO STYLING
 ******************************************/
+
+#portfolio {
+    text-align: center;
+}
+
+#portfolio h1 {
+    font-size: 3em;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+
+#portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 2em 0;
+}
+
+#portfolio-gallery li {
+    margin: 0 auto;
+    width: 25em;
+}
+
+#portfolio-gallery img {
+    max-height: 500px;
+}
 
 
 /******************************************
