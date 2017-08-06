@@ -248,6 +248,9 @@ MEDIA QUERIES
         margin: auto 0px;
         width: 100%;
     }
+    #primary-navigation-list {
+        text-align: center;
+    }
     #primary-navigation-list li a:hover {
         background-color: #495259;
         border-radius: 5px;
@@ -280,14 +283,13 @@ MEDIA QUERIES
     #ty-photo {
         display: none;
     }
-
     /******************************************
     CONTACT STYLING
     ******************************************/
     #contact {
         flex-direction: column;
         justify-content: center;
-        margin: 2em auto;
+        margin: 2em auto -2em auto;
         text-align: center;
     }
     #contact>.social-wrapper {
