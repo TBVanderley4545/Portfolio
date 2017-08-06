@@ -8,15 +8,9 @@
 6. CONTACT STYLING
 7. FOOTER STYLING
 9. MEDIA QUERIES
-    9.1 min-width --> 1921px
-    9.2 max-width --> 1596px
-    9.3 max-width --> 1296px
-    9.4 max-width --> 1046px
-    9.5 max-width --> 768px
-    9.6 max-width --> 653px
-    9.7 max-width --> 476px
-    9.8 max-width --> 276px
-    
+    9.1 max-width --> 868px
+    9.2 max-width --> 464px
+
 ******************************************/
 
 
@@ -47,6 +41,10 @@ hr {
 
 .horizontal-list li {
     display: inline-block;
+}
+
+.social-wrapper li {
+    height: 50px;
 }
 
 .social-wrapper li a {
@@ -90,11 +88,20 @@ HEADER STYLING
     margin: auto 30px;
 }
 
-#primary-navigation li a {
+#primary-navigation-list {
+    /*This is to offset the extra bottom margin from give list items a height of 50px*/
+    margin-bottom: -14px;
+}
+
+#primary-navigation-list li {
+    height: 50px;
+}
+
+#primary-navigation-list li a {
     padding: 15px;
 }
 
-#primary-navigation li a:hover {
+#primary-navigation-list li a:hover {
     background-color: #E97633;
     border-radius: 5px;
     color: #495259;
@@ -123,7 +130,6 @@ HOME STYLING
 
 #home-social {
     margin: 2em auto 0;
-    padding-bottom: 3em;
 }
 
 
@@ -162,17 +168,130 @@ PORTFOLIO STYLING
 ABOUT STYLING
 ******************************************/
 
+#about {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 15%;
+}
+
+#about-text {
+    margin: auto 0;
+    width: 40%;
+}
+
+#about-text h4 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+#about-text p {
+    font-size: 1.25em;
+}
+
+#ty-photo {
+    margin: auto 0;
+    max-height: 25em;
+    max-width: 25em;
+    border-radius: 4%
+}
+
 
 /******************************************
 CONTACT STYLING
 ******************************************/
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 15%;
+}
+
+#contact h1 {
+    margin: auto 0;
+}
+
+#contact>.social-wrapper {
+    /*    This is being done to account for the alignment of the list items being shifted down. Without this change, the top and bottom margins don't appear equal. */
+    margin-bottom: -15px;
+}
 
 
 /******************************************
 FOOTER STYLING
 ******************************************/
 
+#footer {
+    display: flex;
+    justify-content: center;
+    margin: 1.25em;
+}
+
 
 /******************************************
 MEDIA QUERIES
 ******************************************/
+
+@media screen and (max-width: 868px) {
+    /******************************************
+    HEADER STYLING
+    ******************************************/
+    #header {
+        /*Break the navbar into its own separate line and center all content*/
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #primary-navigation {
+        display: flex;
+        color: #495259;
+        background-color: #E97633;
+        justify-content: center;
+        margin: auto 0px;
+        width: 100%;
+    }
+    #primary-navigation-list li a:hover {
+        background-color: #495259;
+        border-radius: 5px;
+        color: #E97633;
+    }
+    /******************************************
+    ABOUT STYLING
+    ******************************************/
+    #about {
+        flex-direction: column;
+    }
+    #about-text {
+        width: 100%;
+    }
+    #ty-photo {
+        margin: auto;
+    }
+    /******************************************
+    CONTACT STYLING
+    ******************************************/
+    #contact>.social-wrapper li {
+        width: 198px;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    /******************************************
+    ABOUT STYLING
+    ******************************************/
+    #ty-photo {
+        display: none;
+    }
+
+    /******************************************
+    CONTACT STYLING
+    ******************************************/
+    #contact {
+        flex-direction: column;
+        justify-content: center;
+        margin: 2em auto;
+        text-align: center;
+    }
+    #contact>.social-wrapper {
+        margin: 2em auto;
+        text-align: left;
+    }
+}
