@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But let these things through.
+!.gitignore
+!index.html
+
+!/css/
+!/css/**
+
+!/assets/
+!/assets/**
