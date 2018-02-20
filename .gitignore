@@ -4,9 +4,21 @@
 # But let these things through.
 !.gitignore
 !index.html
+!wedding.html
 
+# CSS Files
 !/css/
 !/css/**
+/css/*.map
 
+# LESS Files
+!/less/
+!/less/**
+
+# JS Files
+!/js/
+!/js/**
+
+# Asset files
 !/assets/
 !/assets/**

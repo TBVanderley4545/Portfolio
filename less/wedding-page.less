@@ -1,0 +1,165 @@
+/******************************************
+[Table of contents]***********************/
+//0.  LESS
+/******************************************
+1. GENERAL STYLING
+2. PRIMARY-SECTION-WRAPPER STYLING
+3. EXPANDABLE-SECTION STYLING
+4. DETAILS STYLING
+5. ACCOMODATIONS STYLING
+6. REGISTRY STYLING
+7. MEDIA QUERIES
+    7.1 max-width --> 868px
+    7.2 max-width --> 464px
+
+******************************************/
+//*****************************************
+// LESS
+//****************************************/
+// Colors
+@color-body-background: #f0eee2;
+@color-primary-section-color: #f5defe;
+
+// Measurements
+@height-quote-social-section: 2.875em;
+@font-size-social-logo: 1.015em;
+@first-element-expandable-content-top-padding: 1.875em;
+
+// font
+@font-fancy-font: 'Great Vibes', cursive;
+
+/******************************************
+GENERAL STYLING
+******************************************/
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: @color-body-background;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content-wrapper {
+  margin: 6em 1.875em;
+}
+
+/******************************************
+PRIMARY-SECTION-WRAPPER STYLING
+******************************************/
+
+.primary-section-wrapper {
+  background-color: @color-primary-section-color;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 3.125em;
+  position: relative;
+  text-align: center;
+  z-index: 1000;
+}
+
+.wedding-name {
+  font-family: @font-fancy-font;
+  font-size: 4em;
+}
+
+/******************************************
+EXPANDABLE-SECTION  STYLING
+******************************************/
+
+.expandable-section {
+  background-color: @color-primary-section-color;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  padding: 1.25em;
+  text-align: center;
+
+  &:nth-child(n + 3) {
+    border-top: 1px solid rgba(32, 28, 28, 0.43);
+  }
+
+  .section-title {
+    font-family: @font-fancy-font;
+  }
+
+  .expanded-content {
+    visibility: hidden;
+  }
+}
+
+/******************************************
+DETAILS STYLING
+******************************************/
+
+.expandable-section {
+  .expanded-content {
+    .key-information {
+      padding-top: @first-element-expandable-content-top-padding;
+
+      li {
+        &:nth-child(n + 2) {
+          margin: 1.875em auto 0;
+        }
+
+        .key-times {
+          li {
+            margin: 0.4em auto 0;
+          }
+        }
+      }
+
+      .map {
+        height: 400px;
+        width: 500px;
+      }
+    }
+  }
+}
+
+/******************************************
+ACCOMODATIONS STYLING
+******************************************/
+
+.expandable-section {
+  .expanded-content {
+    .accomodation-info {
+      &:first-child {
+        padding-top: @first-element-expandable-content-top-padding;
+      }
+      &:nth-child(n + 2) {
+        margin-top: 1.875em;
+      }
+    }
+  }
+}
+
+/******************************************
+REGISTRY STYLING
+******************************************/
+
+.expandable-section {
+  .expanded-content {
+    .registries {
+      &:first-child {
+        padding-top: @first-element-expandable-content-top-padding;
+      }
+
+      .registry-item {
+        a {
+          color: #000;
+          font-size: 1.25em;
+          text-decoration: none;
+
+          &:hover {
+            color: #007ACC;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
