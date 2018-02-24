@@ -44,7 +44,7 @@ PRIMARY-SECTION-WRAPPER STYLING
 .primary-section-wrapper .primary-banner-image img {
   border-radius: 100%;
   height: auto;
-  width: 50%;
+  width: 100%;
 }
 .primary-section-wrapper .title-text .wedding-name {
   font-family: 'Great Vibes', cursive;
