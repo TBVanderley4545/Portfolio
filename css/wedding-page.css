@@ -41,10 +41,16 @@ PRIMARY-SECTION-WRAPPER STYLING
   text-align: center;
   z-index: 1000;
 }
+.primary-section-wrapper .primary-banner-image {
+  width: 20%;
+}
 .primary-section-wrapper .primary-banner-image img {
   border-radius: 100%;
   height: auto;
   width: 100%;
+}
+.primary-section-wrapper .title-text {
+  width: 40%;
 }
 .primary-section-wrapper .title-text .wedding-name {
   font-family: 'Great Vibes', cursive;
@@ -53,7 +59,6 @@ PRIMARY-SECTION-WRAPPER STYLING
 .primary-section-wrapper .primary-banner-image,
 .primary-section-wrapper .title-text {
   margin: auto;
-  width: 30%;
 }
 /******************************************
 EXPANDABLE-SECTION  STYLING
