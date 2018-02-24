@@ -62,12 +62,27 @@ PRIMARY-SECTION-WRAPPER STYLING
   position: relative;
   text-align: center;
   z-index: 1000;
+
+  .primary-banner-image {
+    img {
+      border-radius: 100%;
+      height: auto;
+      width: 50%;
+    }
+  }
+  
+  .title-text {
+    .wedding-name {
+      font-family: @font-fancy-font;
+      font-size: 4em;
+    }
+  }
+  
+  .primary-banner-image, .title-text {
+    width: 30%;
+  }
 }
 
-.wedding-name {
-  font-family: @font-fancy-font;
-  font-size: 4em;
-}
 
 /******************************************
 EXPANDABLE-SECTION  STYLING
