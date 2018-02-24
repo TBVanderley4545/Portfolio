@@ -34,6 +34,8 @@ PRIMARY-SECTION-WRAPPER STYLING
 .primary-section-wrapper {
   background-color: #f5defe;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
   padding: 3.125em;
   position: relative;
   text-align: center;
