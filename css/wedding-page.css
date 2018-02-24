@@ -46,6 +46,9 @@ PRIMARY-SECTION-WRAPPER STYLING
   height: auto;
   width: 100%;
 }
+.primary-section-wrapper .primary-banner-image .right-image {
+  width: 55%;
+}
 .primary-section-wrapper .title-text .wedding-name {
   font-family: 'Great Vibes', cursive;
   font-size: 4em;
@@ -111,7 +114,7 @@ REGISTRY STYLING
   text-decoration: none;
 }
 .expandable-section .expanded-content .registries .registry-item a:hover {
-  color: #007ACC;
+  color: #007acc;
   text-decoration: underline;
 }
 
