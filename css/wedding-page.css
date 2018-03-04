@@ -46,7 +46,9 @@ ul {
   .content-wrapper h3 {
     font-size: 1.1em;
   }
-  .content-wrapper p {
+  .content-wrapper p,
+  .content-wrapper .key-times,
+  .content-wrapper .accomodation-info ul li {
     font-size: 0.9em;
   }
 }
@@ -65,7 +67,9 @@ ul {
   .content-wrapper h3 {
     font-size: 0.9em;
   }
-  .content-wrapper p {
+  .content-wrapper p,
+  .content-wrapper .key-times,
+  .content-wrapper .accomodation-info ul li {
     font-size: 0.8em;
   }
 }
