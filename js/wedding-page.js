@@ -37,6 +37,17 @@ $(document).ready(function () {
     }
   });
 
+  $(window).resize(function() {
+    // This is used to get the initial height of the expandable sections.
+    $('.expanded-content').each(function () {
+      $(this).attr("element-height", $(this).outerHeight(true));
+      $(this).css({
+        height: 0,
+        visibility: "visible"
+      });
+    });
+  });
+
   /********************
   HELPER FUNCTIONS
   ********************/
