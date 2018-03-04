@@ -70,7 +70,7 @@ $(document).ready(function () {
   });
 
   $(window).on("orientationchange", function (event) {
-    newOrientationWidth = $(window).width();
+    newOrientationWidth = $(window).height();
 
     alert(newOrientationWidth);
 
