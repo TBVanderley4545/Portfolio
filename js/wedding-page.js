@@ -29,13 +29,14 @@ $(document).ready(function () {
   $('.section-title').click(function (e) {
     var expandableSection = $(this).closest('.expandable-section');
     var expandableContent = expandableSection.find('.expanded-content');
+    var icon = $(this).closest('svg');
 
     if (expandableContent.height() > 0) {
       closeContent(expandableContent);
-      $('.section-title svg').addClass('rotated');
+      icon.addClass('rotated');
     } else {
       expandContent(expandableContent);
-      $('.section-title svg').removeClass('rotated');
+      icon.removeClass('rotated');
     }
   });
 
