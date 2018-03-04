@@ -42,7 +42,7 @@ $(document).ready(function () {
 
   // Need to grab this initial width to prevent bug on mobile that treats a scroll as a resize.
   let initialWidth = $(window).width();
-  var newOrientationWidth;
+  let newOrientationWidth;
 
   $(window).resize(function () {
 
@@ -69,8 +69,9 @@ $(document).ready(function () {
     }
   });
 
-  $(window).on("orientationchange", function() {
+  $(window).on("orientationchange", function(event) {
     newOrientationWidth = $(window).width();
+
 
     $('.section-title .icon-container').removeClass('rotated');
 
