@@ -64,7 +64,7 @@ PRIMARY-SECTION-WRAPPER STYLING
   height: auto;
   width: 100%;
 }
-.primary-section-wrapper .primary-banner-image .right-image {
+.primary-section-wrapper .right-image img {
   width: 55%;
 }
 .primary-section-wrapper .title-text .wedding-name {
