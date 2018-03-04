@@ -72,8 +72,6 @@ $(document).ready(function () {
   $(window).on("orientationchange", function (event) {
     newOrientationWidth = $(window).height();
 
-    alert(newOrientationWidth);
-
     $('.section-title .icon-container').removeClass('rotated');
 
     $('.expanded-content').each(function () {
