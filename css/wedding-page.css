@@ -94,6 +94,9 @@ PRIMARY-SECTION-WRAPPER STYLING
   .primary-section-wrapper {
     flex-direction: column-reverse;
   }
+  .primary-section-wrapper .title-text {
+    width: 100%;
+  }
   .primary-section-wrapper .left-image {
     display: none;
   }
