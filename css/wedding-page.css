@@ -148,7 +148,8 @@ DETAILS STYLING
 }
 @media screen and (max-width: 1061px) {
   .expandable-section .expanded-content .key-information .map {
-    display: none;
+    height: 100px;
+    width: 200px;
   }
 }
 /******************************************
