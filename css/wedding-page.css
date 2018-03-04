@@ -90,6 +90,14 @@ PRIMARY-SECTION-WRAPPER STYLING
     width: 25%;
   }
 }
+@media screen and (max-width: 1061px) {
+  .primary-section-wrapper {
+    flex-direction: column-reverse;
+  }
+  .primary-section-wrapper .left-image {
+    display: none;
+  }
+}
 /******************************************
 EXPANDABLE-SECTION  STYLING
 ******************************************/
