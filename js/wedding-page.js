@@ -41,6 +41,8 @@ $(document).ready(function () {
   });
 
   $(window).resize(function() {
+    $('.section-title .icon-container').removeClass('rotated');
+
     $('.expanded-content').each(function() {
       $(this).css({
         height: 'auto',
