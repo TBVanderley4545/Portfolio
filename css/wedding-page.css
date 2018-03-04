@@ -30,6 +30,9 @@ ul {
   font-size: 1em;
   margin: 6em 1.875em;
 }
+.content-wrapper li {
+  font-size: 1em;
+}
 @media screen and (max-width: 1576px) {
   h1 {
     font-size: 3em;
