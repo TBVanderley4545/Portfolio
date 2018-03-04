@@ -34,17 +34,25 @@ ul {
   font-size: 1em;
 }
 @media screen and (max-width: 1576px) {
-  h1 {
+  .content-wrapper {
+    margin: 4em 1.875em;
+  }
+  .content-wrapper h1 {
     font-size: 3em;
   }
-  h2 {
+  .content-wrapper h2 {
     font-size: 1.3em;
   }
-  h3 {
+  .content-wrapper h3 {
     font-size: 1.1em;
   }
-  p {
+  .content-wrapper p {
     font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 1061px) {
+  .content-wrapper {
+    margin: 2em 1.875em;
   }
 }
 /******************************************
