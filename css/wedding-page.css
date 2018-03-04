@@ -18,7 +18,6 @@ GENERAL STYLING
 * {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
 }
 body {
   background-color: #f0eee2;
@@ -28,6 +27,7 @@ ul {
   padding: 0;
 }
 .content-wrapper {
+  font-size: 1em;
   margin: 6em 1.875em;
 }
 @media screen and (max-width: 1576px) {
