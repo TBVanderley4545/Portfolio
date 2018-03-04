@@ -72,7 +72,7 @@ $(document).ready(function () {
   $(window).on("orientationchange", function (event) {
     newOrientationWidth = $(window).width();
 
-    alert("the device is in " + event.orientation + "mode");
+    alert(newOrientationWidth);
 
     $('.section-title .icon-container').removeClass('rotated');
 
