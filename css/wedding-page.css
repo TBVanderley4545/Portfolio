@@ -29,6 +29,17 @@ ul {
 .content-wrapper {
   margin: 6em 1.875em;
 }
+@media screen and (max-width: 1569px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+}
 /******************************************
 PRIMARY-SECTION-WRAPPER STYLING
 ******************************************/
