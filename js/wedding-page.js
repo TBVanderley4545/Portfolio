@@ -32,8 +32,10 @@ $(document).ready(function () {
 
     if (expandableContent.height() > 0) {
       closeContent(expandableContent);
+      $('.section-title svg').addClass('rotated');
     } else {
       expandContent(expandableContent);
+      $('.section-title svg').removeClass('rotated');
     }
   });
 

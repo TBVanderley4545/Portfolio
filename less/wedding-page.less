@@ -222,6 +222,20 @@ EXPANDABLE-SECTION  STYLING
 
   .section-title {
     font-family: @font-fancy-font;
+
+    svg {
+      -moz-transition: all 400ms ease;
+      -o-transition: all 400ms ease;
+      -webkit-transition: all 400ms ease;
+      transition: all 400ms ease;
+    }
+
+    .rotated {
+      -moz-transform: rotate(-180deg);
+      -o-transform: rotate(-180deg);
+      -webkit-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+    }
   }
 
   .expanded-content {

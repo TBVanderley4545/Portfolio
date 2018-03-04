@@ -157,6 +157,18 @@ EXPANDABLE-SECTION  STYLING
 .expandable-section .section-title {
   font-family: 'Great Vibes', cursive;
 }
+.expandable-section .section-title svg {
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.expandable-section .section-title .rotated {
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
 .expandable-section .expanded-content {
   visibility: hidden;
 }
