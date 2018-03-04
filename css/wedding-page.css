@@ -157,7 +157,10 @@ EXPANDABLE-SECTION  STYLING
 .expandable-section .section-title {
   font-family: 'Great Vibes', cursive;
 }
-.expandable-section .section-title svg {
+.expandable-section .section-title .icon-container {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
   -webkit-transition: all 400ms ease;

@@ -29,7 +29,7 @@ $(document).ready(function () {
   $('.section-title').click(function (e) {
     var expandableSection = $(this).closest('.expandable-section');
     var expandableContent = expandableSection.find('.expanded-content');
-    var icon = $(this).find('svg');
+    var icon = $(this).find('.icon-container');
 
     if (expandableContent.height() > 0) {
       closeContent(expandableContent);
