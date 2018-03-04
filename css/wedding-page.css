@@ -100,6 +100,9 @@ PRIMARY-SECTION-WRAPPER STYLING
 .primary-section-wrapper .title-text .wedding-name span {
   font-family: 'Great Vibes', cursive;
 }
+.primary-section-wrapper .title-text h2 {
+  margin-top: 1em;
+}
 .primary-section-wrapper .primary-banner-image,
 .primary-section-wrapper .title-text {
   margin: auto;
