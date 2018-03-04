@@ -38,6 +38,13 @@ $(document).ready(function () {
   });
 
   $(window).resize(function() {
+    ('.expanded-content').each(function()) {
+      $(this).css({
+        height: 'auto',
+        visibility: 'hidden'
+      });
+    }
+
     // This is used to get the initial height of the expandable sections.
     $('.expanded-content').each(function () {
       $(this).attr("element-height", $(this).outerHeight(true));
