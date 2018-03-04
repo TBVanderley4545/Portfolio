@@ -33,6 +33,12 @@ ul {
 .content-wrapper li {
   font-size: 1em;
 }
+a {
+  color: black;
+}
+a:hover {
+  color: white;
+}
 @media screen and (max-width: 1576px) {
   .content-wrapper {
     margin: 4em 1.875em;
@@ -231,13 +237,7 @@ REGISTRY STYLING
   padding-top: 1.875em;
 }
 .expandable-section .expanded-content .registries .registry-item a {
-  color: #000;
   font-size: 1.25em;
-  text-decoration: none;
-}
-.expandable-section .expanded-content .registries .registry-item a:hover {
-  color: #007acc;
-  text-decoration: underline;
 }
 @media screen and (max-width: 1576px) {
   .expandable-section .expanded-content .registries .registry-item a {
