@@ -50,7 +50,7 @@ PRIMARY-SECTION-WRAPPER STYLING
   background-color: #dbafa4;
   background-image: url("../assets/img/Baby Breath Asset.png");
   background-repeat: no-repeat;
-  background-size: 20%;
+  background-size: 30%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: row;
@@ -80,8 +80,14 @@ PRIMARY-SECTION-WRAPPER STYLING
   width: 30%;
 }
 @media screen and (max-width: 1576px) {
+  .primary-section-wrapper .title-text {
+    width: 40%;
+  }
   .primary-section-wrapper .title-text .wedding-name {
     font-size: 3em;
+  }
+  .primary-section-wrapper .primary-banner-image {
+    width: 25%;
   }
 }
 /******************************************
