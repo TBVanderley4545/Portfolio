@@ -29,7 +29,7 @@ ul {
 .content-wrapper {
   margin: 6em 1.875em;
 }
-@media screen and (max-width: 1569px) {
+@media screen and (max-width: 1576px) {
   h1 {
     font-size: 3em;
   }
@@ -79,7 +79,7 @@ PRIMARY-SECTION-WRAPPER STYLING
   margin: auto;
   width: 30%;
 }
-@media screen and (max-width: 1569px) {
+@media screen and (max-width: 1576px) {
   .primary-section-wrapper .title-text .wedding-name {
     font-size: 3em;
   }
