@@ -48,7 +48,7 @@ $(document).ready(function () {
 
     let newWidth = $(window).width();
 
-    if (initialWidth !== newWidth || newOrientationWidth !== newWidth) {
+    if (initialWidth !== newWidth && newOrientationWidth !== newWidth) {
       $('.section-title .icon-container').removeClass('rotated');
 
       $('.expanded-content').each(function () {
