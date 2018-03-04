@@ -127,6 +127,9 @@ EXPANDABLE-SECTION  STYLING
 .expandable-section .section-title {
   font-family: 'Great Vibes', cursive;
 }
+.expandable-section .expanded-content {
+  visibility: hidden;
+}
 /******************************************
 DETAILS STYLING
 ******************************************/
