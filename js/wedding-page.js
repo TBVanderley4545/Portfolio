@@ -40,24 +40,32 @@ $(document).ready(function () {
     }
   });
 
-  $(window).resize(function() {
-    $('.section-title .icon-container').removeClass('rotated');
+  // Need to grab this initial width to prevent bug on mobile that treats a scroll as a resize.
+  let initialWidth = $(window).width();
 
-    $('.expanded-content').each(function() {
-      $(this).css({
-        height: 'auto',
-        visibility: 'hidden'
-      });
-    });
+  $(window).resize(function () {
 
-    // This is used to get the initial height of the expandable sections.
-    $('.expanded-content').each(function () {
-      $(this).attr("element-height", $(this).outerHeight(true));
-      $(this).css({
-        height: 0,
-        visibility: "visible"
+    let newWidth = $(window).width();
+
+    if (initialWidth !== newWidth) {
+      $('.section-title .icon-container').removeClass('rotated');
+
+      $('.expanded-content').each(function () {
+        $(this).css({
+          height: 'auto',
+          visibility: 'hidden'
+        });
       });
-    });
+
+      // This is used to get the initial height of the expandable sections.
+      $('.expanded-content').each(function () {
+        $(this).attr("element-height", $(this).outerHeight(true));
+        $(this).css({
+          height: 0,
+          visibility: "visible"
+        });
+      });
+    }
   });
 
   /********************
