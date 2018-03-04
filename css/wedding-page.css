@@ -104,6 +104,7 @@ PRIMARY-SECTION-WRAPPER STYLING
 }
 @media screen and (max-width: 1061px) {
   .primary-section-wrapper {
+    background-size: 55%;
     flex-direction: column-reverse;
   }
   .primary-section-wrapper .title-text {
@@ -154,7 +155,7 @@ DETAILS STYLING
   height: 400px;
   width: 500px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .expandable-section .expanded-content .key-information .map {
     height: 200px;
     width: 300px;
