@@ -48,7 +48,8 @@ ul {
   }
   .content-wrapper p,
   .content-wrapper .key-times,
-  .content-wrapper .accomodation-info ul li {
+  .content-wrapper .accomodation-info ul li,
+  .content-wrapper .registry-item a {
     font-size: 0.9em;
   }
 }
@@ -69,7 +70,8 @@ ul {
   }
   .content-wrapper p,
   .content-wrapper .key-times,
-  .content-wrapper .accomodation-info ul li {
+  .content-wrapper .accomodation-info ul li,
+  .content-wrapper .registry-item a {
     font-size: 0.8em;
   }
 }
