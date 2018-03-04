@@ -72,10 +72,7 @@ ul {
       font-size: 1.1em;
     }
 
-    p,
-    .key-times,
-    .accomodation-info ul li,
-    .registry-item a {
+    p {
       font-size: 0.9em;
     }
   }
@@ -101,10 +98,7 @@ ul {
       font-size: 0.9em;
     }
 
-    p,
-    .key-times,
-    .accomodation-info ul li,
-    .registry-item a {
+    p {
       font-size: 0.8em;
     }
   }
@@ -260,10 +254,30 @@ DETAILS STYLING
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1576px) {
   .expandable-section {
     .expanded-content {
       .key-information {
+        li {
+          .key-times {
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 683px) {
+  .expandable-section {
+    .expanded-content {
+      .key-information {
+        li {
+          .key-times {
+            font-size: 0.8em;
+          }
+        }
+
         .map {
           height: 200px;
           width: 300px;
@@ -290,6 +304,34 @@ ACCOMODATIONS STYLING
   }
 }
 
+@media screen and (max-width: 1576px) {
+  .expandable-section {
+    .expanded-content {
+      .accomodation-info {
+        ul {
+          li {
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 683px) {
+  .expandable-section {
+    .expanded-content {
+      .accomodation-info {
+        ul {
+          li {
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+  }
+}
+
 /******************************************
 REGISTRY STYLING
 ******************************************/
@@ -310,6 +352,34 @@ REGISTRY STYLING
           &:hover {
             color: #007acc;
             text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1576px) {
+  .expandable-section {
+    .expanded-content {
+      .registries {
+        .registry-item {
+          a {
+            font-size: .9em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 683px) {
+  .expandable-section {
+    .expanded-content {
+      .registries {
+        .registry-item {
+          a {
+            font-size: .8em;
           }
         }
       }

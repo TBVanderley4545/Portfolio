@@ -46,10 +46,7 @@ ul {
   .content-wrapper h3 {
     font-size: 1.1em;
   }
-  .content-wrapper p,
-  .content-wrapper .key-times,
-  .content-wrapper .accomodation-info ul li,
-  .content-wrapper .registry-item a {
+  .content-wrapper p {
     font-size: 0.9em;
   }
 }
@@ -68,10 +65,7 @@ ul {
   .content-wrapper h3 {
     font-size: 0.9em;
   }
-  .content-wrapper p,
-  .content-wrapper .key-times,
-  .content-wrapper .accomodation-info ul li,
-  .content-wrapper .registry-item a {
+  .content-wrapper p {
     font-size: 0.8em;
   }
 }
@@ -179,7 +173,15 @@ DETAILS STYLING
   height: 400px;
   width: 500px;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1576px) {
+  .expandable-section .expanded-content .key-information li .key-times {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 683px) {
+  .expandable-section .expanded-content .key-information li .key-times {
+    font-size: 0.8em;
+  }
   .expandable-section .expanded-content .key-information .map {
     height: 200px;
     width: 300px;
@@ -193,6 +195,16 @@ ACCOMODATIONS STYLING
 }
 .expandable-section .expanded-content .accomodation-info:nth-child(n + 2) {
   margin-top: 1.875em;
+}
+@media screen and (max-width: 1576px) {
+  .expandable-section .expanded-content .accomodation-info ul li {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 683px) {
+  .expandable-section .expanded-content .accomodation-info ul li {
+    font-size: 0.8em;
+  }
 }
 /******************************************
 REGISTRY STYLING
@@ -208,6 +220,16 @@ REGISTRY STYLING
 .expandable-section .expanded-content .registries .registry-item a:hover {
   color: #007acc;
   text-decoration: underline;
+}
+@media screen and (max-width: 1576px) {
+  .expandable-section .expanded-content .registries .registry-item a {
+    font-size: .9em;
+  }
+}
+@media screen and (max-width: 683px) {
+  .expandable-section .expanded-content .registries .registry-item a {
+    font-size: .8em;
+  }
 }
 
 /*# sourceMappingURL=wedding-page.css.map */
