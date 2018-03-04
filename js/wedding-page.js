@@ -33,10 +33,10 @@ $(document).ready(function () {
 
     if (expandableContent.height() > 0) {
       closeContent(expandableContent);
-      icon.addClass('rotated');
+      icon.removeClass('rotated');
     } else {
       expandContent(expandableContent);
-      icon.removeClass('rotated');
+      icon.addClass('rotated');
     }
   });
 
