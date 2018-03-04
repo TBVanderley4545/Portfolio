@@ -100,8 +100,11 @@ PRIMARY-SECTION-WRAPPER STYLING
   .primary-section-wrapper .left-image {
     display: none;
   }
-  .primary-section-wrapper .right-image img {
+  .primary-section-wrapper .right-image {
     width: 100%;
+  }
+  .primary-section-wrapper .right-image img {
+    width: 35%;
   }
 }
 /******************************************
