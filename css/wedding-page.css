@@ -142,6 +142,11 @@ DETAILS STYLING
   height: 400px;
   width: 500px;
 }
+@media screen and (max-width: 1061px) {
+  .expandable-section .expanded-content .key-information .map {
+    display: none;
+  }
+}
 /******************************************
 ACCOMODATIONS STYLING
 ******************************************/
