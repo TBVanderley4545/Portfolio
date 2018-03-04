@@ -42,7 +42,7 @@ $(document).ready(function () {
 
   // Need to grab this initial width to prevent bug on mobile that treats a scroll as a resize.
   let initialWidth = $(window).width();
-  let newOrientationWidth = 0;
+  var newOrientationWidth;
 
   $(window).resize(function () {
 
