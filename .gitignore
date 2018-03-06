@@ -7,6 +7,13 @@
 # Explicitly state what to let through
 
 !.gitignore
+
+# Wordpress
+!/wp-content/themes/twentyseventeen/**
+
+
+# The files below this will be irrelevant soon.
+
 !index.html
 !wedding.html
 
@@ -23,8 +30,6 @@
 !/js/
 !/js/**
 
-# Wordpress
-!/wp-content/themes/twentyseventeen/**
-
 # Asset files
 !/assets/
+!/assets/**
