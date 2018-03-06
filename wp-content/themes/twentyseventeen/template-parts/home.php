@@ -17,26 +17,17 @@
 
  //* Template Name: 1 - Home
 
-?>
+get_header(); ?>
 
-<?php
-
-// Init content
-$content = '';
-
-$content .= '<h1>Hello?!</h1>';
-
-echo $content;
-
-?>
 <div class="wrap">
+  <h1>Hello?!45</h1>
 	<?php if ( is_home() && ! is_front_page() ) : ?>
 		<header class="page-header">
 			<h1 class="page-title"><?php single_post_title(); ?></h1>
 		</header>
 	<?php else : ?>
 	<header class="page-header">
-		<p class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></p>
+		<h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
 	</header>
 	<?php endif; ?>
 
@@ -76,4 +67,4 @@ echo $content;
 	<?php get_sidebar(); ?>
 </div><!-- .wrap -->
 
-<?php
+<?php get_footer();
