@@ -21,13 +21,12 @@ get_header(); ?>
 
 <?php
 
-  // Init content
-  $content = '';
+// Init content
+$content = '';
 
-  $content .= '<h1>Hello?!</h1>';
+$content .= '<h1>Hello?!</h1>';
 
-  echo $content;
-}
+echo $content;
 
 ?>
 <div class="wrap">
