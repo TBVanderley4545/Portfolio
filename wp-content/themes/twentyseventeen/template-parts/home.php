@@ -36,7 +36,7 @@ echo $content;
 		</header>
 	<?php else : ?>
 	<header class="page-header">
-		<h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
+		<p class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></p>
 	</header>
 	<?php endif; ?>
 
