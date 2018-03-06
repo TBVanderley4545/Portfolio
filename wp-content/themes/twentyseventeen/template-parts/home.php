@@ -21,7 +21,6 @@ get_header(); ?>
 
 <?php
 
-function page_content() {
   // Init content
   $content = '';
 
