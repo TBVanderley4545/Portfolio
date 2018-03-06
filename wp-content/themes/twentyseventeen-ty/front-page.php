@@ -43,7 +43,7 @@ Template Name: 1 - Home
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/tyler-vanderley-3b800670"><i class="fa fa-linkedin"></i> LinkedIn</a>
-            </li>
+            </li> 
             <li>
                 <a href="https://www.freecodecamp.org/tbvanderley4545"><i class="fa fa-free-code-camp"></i> freeCodeCamp</a>
             </li>
