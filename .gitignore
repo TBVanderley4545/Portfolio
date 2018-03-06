@@ -10,7 +10,6 @@
 
 # Wordpress
 !/wp-content/themes/twentyseventeen-ty/**
-!/wp-content/themes/twentyseventeen/**
 
 
 # The files below this will be irrelevant soon.
