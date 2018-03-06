@@ -9,7 +9,7 @@
 !.gitignore
 
 # Wordpress
-!/wp-content/themes/twentyseventeen/**
+!/wp-content/themes/twentyseventeen-ty/**
 
 
 # The files below this will be irrelevant soon.
