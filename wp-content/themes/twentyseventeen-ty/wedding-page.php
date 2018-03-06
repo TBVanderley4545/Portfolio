@@ -25,7 +25,7 @@ Template Name: 2 - Wedding
       </div>
       <div class="title-text">
         <h1 class="wedding-name">
-          Vaderley &amp; Rossi
+          Vanderley &amp; Rossi
           <br>
           <span>Wedding</span>
         </h1>
