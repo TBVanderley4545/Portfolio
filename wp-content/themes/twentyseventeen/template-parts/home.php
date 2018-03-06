@@ -19,6 +19,18 @@
 
 get_header(); ?>
 
+<?php
+
+function page_content() {
+  // Init content
+  $content = '';
+
+  $content .= '<h1>Hello?!</h1>';
+
+  echo $content;
+}
+
+?>
 <div class="wrap">
 	<?php if ( is_home() && ! is_front_page() ) : ?>
 		<header class="page-header">
