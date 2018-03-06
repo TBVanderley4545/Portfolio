@@ -17,7 +17,7 @@
 
  //* Template Name: 1 - Home
 
-get_header(); ?>
+?>
 
 <?php
 
@@ -76,4 +76,4 @@ echo $content;
 	<?php get_sidebar(); ?>
 </div><!-- .wrap -->
 
-<?php get_footer();
+<?php
