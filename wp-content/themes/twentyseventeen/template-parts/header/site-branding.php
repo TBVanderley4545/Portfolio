@@ -26,7 +26,7 @@
 
 			if ( $description || is_customize_preview() ) :
 			?>
-				<p class="site-description"><?php echo $description; ?></p>
+				<h2 class="site-description"><?php echo $description; ?></h2>
 			<?php endif; ?>
 		</div><!-- .site-branding-text -->
 
