@@ -13,9 +13,9 @@
  * @subpackage Twenty_Seventeen
  * @since 1.0
  * @version 1.0
- *
- * Template Name: New Template
  */
+
+ //* Template Name: 1 - Home
 
 get_header(); ?>
 
