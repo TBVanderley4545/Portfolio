@@ -762,7 +762,7 @@ TEXT-DECORATION: none
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=64" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/kitchen_icon_hoods.png" alt="Exhaust Hoods" />
+                        <img src="/CaptiveAire_Project/images/Captiveaire/Navigation/kitchen_icon_hoods.png" alt="Exhaust Hoods" />
                     </div>
                     <p>Exhaust Hoods</p>
                 </a>
