@@ -2,13 +2,6 @@
 /*
 Template Name: 3 - CaptiveAire
 */
-
-function namespace_theme_stylesheets() {
-  wp_enqueue_style( 'captive-aire-main',  get_template_directory_uri() .'CaptiveAireProject/include/css/CasSiteStyle.min.css', array(), null, 'all' );
-  wp_enqueue_style( 'captive-aire-cas',  get_template_directory_uri() .'CaptiveAireProject/CatalogContent/ElectricControls/CASLink/css/caslink.css', array(), null, 'all' );
-  wp_enqueue_style( 'captive-aire-slider', get_stylesheet_uri(), '/CaptiveAireProject/JS/flexslider/flexslider.css', null, 'all' );
-}
-add_action( 'wp_enqueue_scripts', 'namespace_theme_stylesheets' );
 ?>
 
 
@@ -19,6 +12,7 @@ add_action( 'wp_enqueue_scripts', 'namespace_theme_stylesheets' );
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>CASLink: Cloud-Based Building Management</title>
+    <base href="http://tylervanderley.com/" />
     <link href="/JS/flexslider/flexslider.css" rel="stylesheet" />
     <link href="css/caslink.css?v=310201842557" rel="stylesheet" type="text/css" media="screen" />
     
@@ -587,8 +581,8 @@ TEXT-DECORATION: none
     <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-120.png" />
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-152.png" />
     <link rel="apple-touch-icon" href="/images/Captiveaire/icons/apple-touch-icon.png" />
-	<link rel="shortcut icon" href="/images/Captiveaire/icons/favicon.png" />
-	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="shortcut icon" href="/CaptiveAire/images/Captiveaire/icons/favicon.png" />
+	<link rel="shortcut icon" href="/CaptiveAire/favicon.ico" />
 
 	<!-- Analytics: -->
 	<script type="text/javascript"> 
@@ -631,7 +625,7 @@ TEXT-DECORATION: none
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
 <script src="/JS/ng-cas.js"></script>
 
-<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="shortcut icon" href="/CaptiveAire/favicon.ico" />
 
 
 <body ng-app="CASApp"  class="Main" >
