@@ -1,8 +1,3 @@
-<?php
-/*
-Template Name: 3 - CaptiveAire
-*/
-?>
 
 <!DOCTYPE html>
 
@@ -11,13 +6,13 @@ Template Name: 3 - CaptiveAire
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>CASLink: Cloud-Based Building Management</title>
-    <link href="/CaptiveAireProject/JS/flexslider/flexslider.css" rel="stylesheet">
-    <link href="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/css/caslink.css?v=310201842557" rel="stylesheet" type="text/css" media="screen">
+    <link href="/JS/flexslider/flexslider.css" rel="stylesheet" />
+    <link href="css/caslink.css?v=310201842557" rel="stylesheet" type="text/css" media="screen" />
     
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
 
-	<link REL="STYLESHEET" TYPE="text/css" HREF="/CaptiveAireProject/include/SiteStylePrint.css" MEDIA="Print">
+	<link REL="STYLESHEET" TYPE="text/css" HREF="/include/SiteStylePrint.css" MEDIA="Print">
 	<style type="text/css">
 	.accountinfoCell {
 				COLOR: #001C33;
@@ -572,15 +567,15 @@ TEXT-DECORATION: none
 
 	</style>
 
-<link REL="STYLESHEET" TYPE="text/css" HREF="/CaptiveAireProject/include/SiteStyle.css">
+<link REL="STYLESHEET" TYPE="text/css" HREF="/include/SiteStyle.css">
 
-	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/CaptiveAireProject/images/Captiveaire/icons/apple-touch-icon-precomposed-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/CaptiveAireProject/images/Captiveaire/icons/apple-touch-icon-precomposed-76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/CaptiveAireProject/images/Captiveaire/icons/apple-touch-icon-precomposed-120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/CaptiveAireProject/images/Captiveaire/icons/apple-touch-icon-precomposed-152.png" />
-    <link rel="apple-touch-icon" href="/CaptiveAireProject/images/Captiveaire/icons/apple-touch-icon.png" />
-	<link rel="shortcut icon" href="/CaptiveAireProject/images/Captiveaire/icons/favicon.png" />
-	<link rel="shortcut icon" href="/CaptiveAireProject/favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-152.png" />
+    <link rel="apple-touch-icon" href="/images/Captiveaire/icons/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="/images/Captiveaire/icons/favicon.png" />
+	<link rel="shortcut icon" href="/favicon.ico" />
 
 	<!-- Analytics: -->
 	<script type="text/javascript"> 
@@ -621,9 +616,9 @@ TEXT-DECORATION: none
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
-<script src="/CaptiveAireProject/JS/ng-cas.js"></script>
+<script src="/JS/ng-cas.js"></script>
 
-<link rel="shortcut icon" href="/CaptiveAireProject/favicon.ico" />
+<link rel="shortcut icon" href="/favicon.ico" />
 
 
 <body ng-app="CASApp"  class="Main" >
@@ -762,7 +757,7 @@ TEXT-DECORATION: none
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=64" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/kitchen_icon_hoods.png" alt="Exhaust Hoods" />
+                        <img src="/images/Captiveaire/Navigation/kitchen_icon_hoods.png" alt="Exhaust Hoods" />
                     </div>
                     <p>Exhaust Hoods</p>
                 </a>
