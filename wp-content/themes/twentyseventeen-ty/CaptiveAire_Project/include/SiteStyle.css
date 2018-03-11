@@ -1,0 +1,199 @@
+/* HTML5 Fixes: */
+
+.alignLeft {
+	text-align: left;
+}
+    .alignLeft > table, table.alignLeft {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+.alignRight {
+	text-align: right;
+}
+    .alignRight > table, table.alignRight {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+.alignCenter, table.alignCenter > tbody > tr > td {
+	text-align: center;
+}
+    .alignCenter > table, table.alignCenter {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.alignTop {
+	vertical-align: top;
+}
+
+.alignBottom {
+	vertical-align: bottom;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.ir, .ir:hover {
+    font: 0/0 a;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    color: transparent;
+}
+
+.box-line {
+    background-color: rgb(186,186,186);
+    font-size: 0;
+    height: 1px;
+    padding: 0;
+}
+
+a.CMenuLevel0, a.CMenuLevel1 {
+	display: inline-block;
+	margin: 3px 0;
+}
+
+/* end HTML5 Fixes */
+
+BODY
+{
+    FONT-SIZE: 11px;
+    COLOR: #4d4c47;
+    FONT-FAMILY: verdana, sans-serif;    
+}
+TH
+{
+    FONT-SIZE: 12px;
+    COLOR: #4d4c47;
+    FONT-FAMILY: verdana, sans-serif;
+}
+TD
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #4d4c47;
+    FONT-FAMILY: verdana, 'Trebuchet MS', sans-serif;
+}
+INPUT
+{
+    FONT-SIZE: 11px;
+    COLOR: #4d4c47;
+    FONT-FAMILY: Verdana, monospace, sans-serif;
+}
+TEXTAREA
+{
+    FONT-SIZE: 11px;
+    COLOR: #4d4c47;
+    FONT-FAMILY: Verdana, sans-serif;
+}
+FORM
+{
+    MARGIN: 0;
+}
+IMG
+{
+    BORDER-RIGHT: #403f3b;
+    BORDER-TOP: #403f3b;
+    BORDER-LEFT: #403f3b;
+    BORDER-BOTTOM: #403f3b
+}
+OPTION
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #4d4c47;
+    FONT-FAMILY: verdana, 'Trebuchet MS', sans-serif;
+}
+SELECT
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #4d4c47;
+    FONT-FAMILY: verdana, 'Trebuchet MS', sans-serif;
+}
+
+.ListWrap {
+    text-align: center;
+}
+.ListWrap > ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.ListWrap > ul > li > ul {
+    list-style: none;
+    padding: 4px 0 16px 10px;
+    margin: 0;
+}
+.ListWrap > ul > li > ul > li {
+    margin: 2px 0;
+}
+
+/**
+ * POPUP CONTAINER STYLES
+ */
+#popupMask {
+	position: absolute;
+	z-index: 200;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+	filter: alpha(opacity=80);
+	/* this hack is so it works in IE
+	 * I find setting the color in the css gives me more flexibility 
+	 * than the PNG solution.
+	 */
+	background-color: transparent !important;
+	background-color: #333333;
+	background-image: none;
+	background-repeat: repeat;
+	display:none;
+}
+#popupContainer {
+	position: absolute;
+	z-index: 201;
+	top: 0;
+	left: 0;
+	display: none;
+	padding: 0;
+}
+#popupInner {
+	border: 2px solid #000000;
+	background-color: #ffffff;
+}
+
+#popupFrame {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 202;
+}
+#popupTitleBar {
+	background-color: #cccccc;
+	color: #ffffff;
+	font-weight: bold;
+	height: 1.3em;
+	padding: 5px;
+	position: relative;
+	z-index: 203;
+}
+#popupTitle {
+	float:left;
+	font-size: 1.1em;
+}
+#popupControls {
+	margin-top: -10px;
+	margin-right: -10px;
+	float: right;
+	cursor: pointer;
+}
+
+/**** END Pop up styles ***/
+

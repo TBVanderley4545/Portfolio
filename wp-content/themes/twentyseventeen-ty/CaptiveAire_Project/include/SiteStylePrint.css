@@ -1,0 +1,128 @@
+BODY
+{
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+TH
+{
+    FONT-SIZE: 13px;
+    COLOR: #000000;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TD
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Arial, Verdana, 'Trebuchet MS'
+}
+INPUT
+{
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Arial, monospace
+}
+TEXTAREA
+{
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Arial
+}
+FORM
+{
+    MARGIN: 0px
+}
+IMG
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none
+}
+OPTION
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Arial, Verdana, 'Trebuchet MS'
+}
+SELECT
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Arial, Verdana, 'Trebuchet MS'
+}
+.screenonly
+{
+    display: none;
+    line-height: 1px;
+}
+.awmAnchor
+{
+    DISPLAY: none
+}
+.awmGeneric
+{
+    DISPLAY: none
+}
+.AWMSTEL
+{
+    DISPLAY: none
+}
+.AWMST1, .AWMST2, .AWMST3, .AWMST9, .AWMST17, .AWMST25, .AWMST33, .AWMST41, .AWMST49, .AWMST57
+{
+    DISPLAY: none
+}
+.AWMEL0, .AWMEL2, .AWMEL16, .AWMEL26, .AWMEL33, .AWMEL47, .AWMEL57
+{
+    DISPLAY: none
+}
+.printonly
+{
+    display: block;
+}
+.CStatsHeaderCell
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: black;
+    FONT-FAMILY: verdana, arial, 'Trebuchet MS';
+    BACKGROUND-COLOR: white
+}
+.CStatsTable
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.CStatsHeaderText
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: black;
+    FONT-FAMILY: verdana, arial, 'Trebuchet MS';
+    BACKGROUND-COLOR: transparent
+}
+.DefaultBody
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Arial, Verdana, 'Trebuchet MS';
+    BACKGROUND-COLOR: white
+}
+.rowcolor2
+{
+    BACKGROUND-COLOR: transparent
+}
+.CProductImage
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none
+}
