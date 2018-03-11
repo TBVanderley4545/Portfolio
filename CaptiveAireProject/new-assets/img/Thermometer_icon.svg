@@ -13,9 +13,9 @@
  <g transform="translate(-100.76 -132.38)">
   <circle cx="108.88" cy="165.66" r="6.8154" fill="#fff" stroke-width=".2076"/>
   <rect x="105.97" y="132.38" width="5.5487" height="35.814" ry="2.7743" fill="#fff" stroke-width=".24968"/>
-  <rect x="107.5" y="134.52" width="2.6087" height="25.123" ry="1.9462" stroke-width=".14339"/>
+  <rect class="thermometer-empty" x="107.5" y="134.52" width="2.6087" height="25.123" ry="1.9462" fill="#f5860d" stroke-width=".14339"/>
   <rect x="100.76" y="145.19" width="16.036" height="1.8709" fill="#fff" stroke-width=".26458"/>
-  <rect class="thermometer-temperature" x="106.57" y="160.89" width="4.3096" height=".001" ry="7.7465e-5" fill="#fff" stroke-width=".0011627"/>
+  <rect class="thermometer-fill" x="106.57" y="160.89" width="4.3096" height=".001" ry="7.7465e-5" fill="#fff" stroke-width=".0011627"/>
   <text x="114.86697" y="153.63365" fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="114.86697" y="153.63365" fill="#ffffff" stroke-width=".26458">-</tspan></text>
   <text x="112.92138" y="143.05812" fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="112.92138" y="143.05812" fill="#ffffff" stroke-width=".26458">+</tspan></text>
  </g>
