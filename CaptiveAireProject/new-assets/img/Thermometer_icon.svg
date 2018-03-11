@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="19.414259mm"
+   height="40.090412mm"
+   viewBox="0 0 19.414259 40.090412"
    version="1.1"
    id="svg8"
    sodipodi:docname="Thermometer_icon.svg"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="415.81013"
-     inkscape:cy="354.5067"
+     inkscape:cx="34.982621"
+     inkscape:cy="-116.14672"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -35,7 +35,11 @@
      inkscape:window-height="1017"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -52,7 +56,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-100.76061,-132.38254)">
     <circle
        style="fill:#ffffff;stroke-width:0.20759615"
        id="path3739"
@@ -83,8 +88,8 @@
        x="100.76061"
        y="145.1909" />
     <rect
-       class="thermometer-temperature"
        style="display:inline;fill:#ffffff;stroke-width:0.00116267"
+       class="thermometer-temperature"
        id="rect3750-9-7"
        width="4.3096008"
        height="0.001"
@@ -94,7 +99,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot3775"
-       style="display:inline;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,-19.692559,4.5357142)"><flowRegion
          id="flowRegion3777"><rect
            id="rect3779"
@@ -105,7 +110,7 @@
          id="flowPara3781"
          style="fill:#f9f9f9">+</flowPara></flowRoot>    <text
        xml:space="preserve"
-       style="display:inline;font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="114.3378"
        y="154.69197"
        id="text3785"><tspan
