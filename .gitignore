@@ -10,6 +10,7 @@
 
 # Wordpress
 !/wp-content/themes/twentyseventeen-ty/**
+!/CaptiveAireProject/**
 
 
 # The files below this will be irrelevant soon.
