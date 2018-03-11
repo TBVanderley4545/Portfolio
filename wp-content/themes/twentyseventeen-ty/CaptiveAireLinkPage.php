@@ -2,6 +2,13 @@
 /*
 Template Name: 3 - CaptiveAire
 */
+
+function namespace_theme_stylesheets() {
+  wp_enqueue_style( 'captive-aire-main',  get_template_directory_uri() .'CaptiveAireProject/include/css/CasSiteStyle.min.css', array(), null, 'all' );
+  wp_enqueue_style( 'captive-aire-cas',  get_template_directory_uri() .'CaptiveAireProject/CatalogContent/ElectricControls/CASLink/css/caslink.css', array(), null, 'all' );
+  wp_enqueue_style( 'captive-aire-slider', get_stylesheet_uri(), '/CaptiveAireProject/JS/flexslider/flexslider.css', null, 'all' );
+}
+add_action( 'wp_enqueue_scripts', 'namespace_theme_stylesheets' );
 ?>
 
 
