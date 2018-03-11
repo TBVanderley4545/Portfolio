@@ -623,7 +623,7 @@ TEXT-DECORATION: none
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
 <script src="/JS/ng-cas.js"></script>
 
-<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="shortcut icon" href="/CaptiveAire_Project/favicon.ico" />
 
 
 <body ng-app="CASApp"  class="Main" >
