@@ -600,19 +600,19 @@ TEXT-DECORATION: none
 
 </head>
 
-<link rel="stylesheet" type="text/css" href="/include/css/CasSiteStyle.min.css?v=37201852053" />
+<link rel="stylesheet" type="text/css" href="/CaptiveAireProject/include/css/CasSiteStyle.min.css?v=37201852053" />
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript">
 	if (typeof jQuery == 'undefined') {
 	    document.write(unescape("%3Cscript src='/js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
 	}
 </script>
-<script type="text/javascript" src="/JS/modernizr.min.js"></script>
-<script src="/JS/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="CaptiveAireProject/JS/modernizr.min.js"></script>
+<script src="/CaptiveAireProject/JS/imagesloaded.pkgd.min.js"></script>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/css/swiper.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/js/swiper.jquery.min.js"></script>
-<script type="text/javascript" src="/JS/main.min.js?v=28201830850"></script>
+<script type="text/javascript" src="/CaptiveAireProject/JS/main.min.js?v=28201830850"></script>
 
 <!-- Angular: -->
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -622,9 +622,9 @@ TEXT-DECORATION: none
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
-<script src="/JS/ng-cas.js"></script>
+<script src="/CaptiveAireProject/JS/ng-cas.js"></script>
 
-<link rel="shortcut icon" href="/CaptiveAire/favicon.ico" />
+<link rel="shortcut icon" href="/CaptiveAireProject/favicon.ico" />
 
 
 <body ng-app="CASApp"  class="Main" >
@@ -697,43 +697,43 @@ TEXT-DECORATION: none
                 
                 <a id="Kitchen" class="First swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/vent_icon_CKV@2x_alt.png" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/vent_icon_CKV@2x_alt.png" />
                     </div>
                     <p><span>Commercial </span>Kitchen Ventilation</p>
                 </a>
                 <a id="Electrical" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/kitchen_icon_electrical.png" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/kitchen_icon_electrical.png" />
                     </div>
                     <p>Electrical Controls</p>
                 </a>
                 <a id="ExhaustFans" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/vent_icon_Exhaust@2x.png" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/vent_icon_Exhaust@2x.png" />
                     </div>
                     <p>Fans<span> & Ventilators</span></p>
                 </a>
                 <a id="Ductwork" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/vent_icon_duct@2x.png" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/vent_icon_duct@2x.png" />
                     </div>
                     <p>Ductwork</p>
                 </a>
                 <a id="Heaters" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/vent_icon_Heaters@2x.png" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/vent_icon_Heaters@2x.png" />
                     </div>
                     <p>Heaters</p>
                 </a>
                 <a id="MUA" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/vent_icon_MUA@2x.png" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/vent_icon_MUA@2x.png" />
                     </div>
                     <p>Make-Up Air</p>
                 </a>
                 <a id="HVAC" class="swiper-slide" href="/Paragon">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/vent_icon_HVAC-logo@2x.png" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/vent_icon_HVAC-logo@2x.png" />
                     </div>
                     <p>HVAC</p>
                 </a>
@@ -751,31 +751,31 @@ TEXT-DECORATION: none
                 </a>-->
                 <a href="/catalog/showCatalogList.asp?cattypeid=144" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/kitchen_icon_filtration.png" alt="Hood Filtration" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/kitchen_icon_filtration.png" alt="Hood Filtration" />
                     </div>
                     <p>Hood Filtration</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=87" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/kitchen_icon_fire.png" alt="Fire Suppression" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/kitchen_icon_fire.png" alt="Fire Suppression" />
                     </div>
                     <p>Fire Suppression</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=64" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/kitchen_icon_hoods.png" alt="Exhaust Hoods" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/kitchen_icon_hoods.png" alt="Exhaust Hoods" />
                     </div>
                     <p>Exhaust Hoods</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=92" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/kitchen_icon_pollution.png" alt="Pollution Control" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/kitchen_icon_pollution.png" alt="Pollution Control" />
                     </div>
                     <p>Pollution Control</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=67" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/kitchen_icon_utility.png" alt="Utility Distribution" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/kitchen_icon_utility.png" alt="Utility Distribution" />
                     </div>
                     <p>Utility Distribution</p>
                 </a>
@@ -786,25 +786,25 @@ TEXT-DECORATION: none
             <div class="LinkWrap nav-swiper-wrapper">
                 <a href="/CatalogContent/ElectricControls/CASLink/index.asp" class="First swiper-slide" title="CASLink: Cloud-Based Building Management">
                     <div class="ImgWrap">
-                        <img src="/CatalogContent/ElectricControls/CASLink/img/caslink-menu-thumb-logo.png" alt="CASLink: Cloud-Based Building Management" />
+                        <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/caslink-menu-thumb-logo.png" alt="CASLink: Cloud-Based Building Management" />
                     </div>
                     <p>CASLink</p>
                 </a>
                 <a href="/CatalogContent/ElectricControls/Electrical.asp" class="swiper-slide" title="Standard Controls and Demand Ventilation">
                     <div class="ImgWrap">
-                        <img src="/CatalogContent/ElectricControls/images/electricStandard_alt.png" alt="Standard Controls and Demand Ventilation" />
+                        <img src="/CaptiveAireProject/CatalogContent/ElectricControls/images/electricStandard_alt.png" alt="Standard Controls and Demand Ventilation" />
                     </div>
                     <p>Standard Controls</p>
                 </a>
                 <a href="/CatalogContent/Hoods/Accessories/Water%20Wash/SCManifoldList.asp" class="swiper-slide" title="Self Cleaning Remote Manifold and Controls">
                     <div class="ImgWrap">
-                        <img src="/CatalogContent/Hoods/Accessories/Water%20Wash/Images/SCSPanel_cas.png" alt="Self Cleaning Remote Manifold and Controls" />
+                        <img src="/CaptiveAireProject/CatalogContent/Hoods/Accessories/Water%20Wash/Images/SCSPanel_cas.png" alt="Self Cleaning Remote Manifold and Controls" />
                     </div>
                     <p>Self Cleaning<span> Remote Manifold</span></p>
                 </a>
                 <a href="/catalog/genpartCatalog.asp?catid=487" class="swiper-slide" title="Lighting Control">
                     <div class="ImgWrap">
-                        <img src="/CatalogContent/ElectricControls/Lighting/images/LightingControl_1.png" alt="Lighting Control" />
+                        <img src="/CaptiveAireProject/CatalogContent/ElectricControls/Lighting/images/LightingControl_1.png" alt="Lighting Control" />
                     </div>
                     <p>Lighting<span> Control</span></p>
                 </a>
@@ -815,56 +815,56 @@ TEXT-DECORATION: none
             <div class="LinkWrap nav-swiper-wrapper">
                 <a href="/catalog/showCatalogList.asp?cattypeid=60" class="First swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/AxialDownblastIcon.png" alt="Axial Roof-mount" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/AxialDownblastIcon.png" alt="Axial Roof-mount" />
                     </div>
                     <p><span>Axial </span>Roof-mount</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=39" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/AxialWallmountIcon.png" alt="Axial Wall-mount" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/AxialWallmountIcon.png" alt="Axial Wall-mount" />
                     </div>
                     <p><span>Axial </span>Wall-mount</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=38" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/CeilingInlineIcon.png" alt="Ceiling & Inline" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/CeilingInlineIcon.png" alt="Ceiling & Inline" />
                     </div>
                     <p>Ceiling<span> & Inline</span></p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=5" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/CentrifugalDownblastIcon.png" alt="Centrifugal Down-blast" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/CentrifugalDownblastIcon.png" alt="Centrifugal Down-blast" />
                     </div>
                     <p><span>Centrifugal </span>Down-blast</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=4" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/CentrifugalUpblastIcon.png" alt="Centrifugal Up-blast" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/CentrifugalUpblastIcon.png" alt="Centrifugal Up-blast" />
                     </div>
                     <p><span>Centrifugal </span>Up-blast</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=179" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/GravityVentIcon.png" alt="Gravity Vent" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/GravityVentIcon.png" alt="Gravity Vent" />
                     </div>
                     <p>Gravity Vent</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=40" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/InlineIcon.png" alt="Inline" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/InlineIcon.png" alt="Inline" />
                     </div>
                     <p>Inline</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=20" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/UtilitySetsIcon.png" alt="Utility Sets" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/UtilitySetsIcon.png" alt="Utility Sets" />
                     </div>
                     <p>Utility Sets</p>
                 </a>
 
                 <a href="/catalog/showCatalogList.asp?cattypeid=192" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/CatalogContent/Fans/HVLS/Images/HVLS_Fan_T.png" alt="High Volume Low Speed Fans" />
+                        <img src="/CaptiveAireProject/CatalogContent/Fans/HVLS/Images/HVLS_Fan_T.png" alt="High Volume Low Speed Fans" />
                     </div>
                     <p><span>High Volume Low Speed</span><span class="mobile-only-inline">HVLS</span></p>
                 </a>
@@ -875,19 +875,19 @@ TEXT-DECORATION: none
             <div class="LinkWrap nav-swiper-wrapper">
                 <a href="/catalog/genpartCatalog.asp?catid=455" class="First swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/duct_icon_duct@2x.png" alt="Grease Ductwork" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/duct_icon_duct@2x.png" alt="Grease Ductwork" />
                     </div>
                     <p>Grease Ductwork</p>
                 </a>
                 <a href="/catalog/genpartCatalog.asp?catid=456" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/duct_icon_chimney@2x.png" alt="Double Wall Chimney" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/duct_icon_chimney@2x.png" alt="Double Wall Chimney" />
                     </div>
                     <p>Double Wall Chimney</p>
                 </a>
                 <a href="/catalog/genpartCatalog.asp?catid=494" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/Captiveaire/Navigation/vent_icon_duct@2x.png" alt="Special Gas Vent" />
+                        <img src="/CaptiveAireProject/images/Captiveaire/Navigation/vent_icon_duct@2x.png" alt="Special Gas Vent" />
                     </div>
                     <p>Special Gas Vent</p>
                 </a>
@@ -898,37 +898,37 @@ TEXT-DECORATION: none
             <div class="LinkWrap nav-swiper-wrapper">
                 <a href="/catalog/showCatalogList.asp?cattypeid=15" class="First swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_direct-fired@2x.png" alt="Direct Fired" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_direct-fired@2x.png" alt="Direct Fired" />
                     </div>
                     <p>Direct Fired</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=106" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_compact-direct-fired@2x.png" alt="Direct Fired Compact" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_compact-direct-fired@2x.png" alt="Direct Fired Compact" />
                     </div>
                     <p>Direct Fired Compact</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=16" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_indirect-fired@2x.png" alt="Indirect Fired" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_indirect-fired@2x.png" alt="Indirect Fired" />
                     </div>
                     <p>Indirect Fired</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=78" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_electric@2x.png" alt="Electric" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_electric@2x.png" alt="Electric" />
                     </div>
                     <p>Electric</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=82" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_direct-fired-horizontal@2x.png" alt="Direct Fired Horizontal" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_direct-fired-horizontal@2x.png" alt="Direct Fired Horizontal" />
                     </div>
                     <p>Direct Fired Horizontal</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=83" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_direct-fired-vertical@2x.png" alt="Direct Fired Vertical" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_direct-fired-vertical@2x.png" alt="Direct Fired Vertical" />
                     </div>
                     <p>Direct Fired Vertical</p>
                 </a>
@@ -939,31 +939,31 @@ TEXT-DECORATION: none
             <div class="LinkWrap nav-swiper-wrapper">
                 <a href="/catalog/showCatalogList.asp?cattypeid=93" class="First swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_accessories@2x.png" alt="Accessories" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_accessories@2x.png" alt="Accessories" />
                     </div>
                     <p>Accessories</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=7" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_inline-filtered@2x.png" alt="Inline Filtered" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_inline-filtered@2x.png" alt="Inline Filtered" />
                     </div>
                     <p>Inline Filtered</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=61" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_economy@2x.png" alt="Economy" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_economy@2x.png" alt="Economy" />
                     </div>
                     <p>Economy</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=162" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_mpu@2x.png" alt="Modular Packaged Unit" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_mpu@2x.png" alt="Modular Packaged Unit" />
                     </div>
                     <p>Modular Packaged Unit</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=6" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_rooftop-filtered@2x.png" alt="Rooftop Filtered" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_rooftop-filtered@2x.png" alt="Rooftop Filtered" />
                     </div>
                     <p>Rooftop Filtered</p>
                 </a>
@@ -1094,7 +1094,7 @@ TEXT-DECORATION: none
         <section class="hero">
 
             <div class="title-block">
-                <img class="logo" src="img/caslink-logo-white.png" />
+                <img class="logo" src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/caslink-logo-white.png" />
             </div><!-- end .title-block -->
             <div class="hero-container">
                 <div class="hero-item">
@@ -1176,7 +1176,7 @@ TEXT-DECORATION: none
                     </div><!-- end .flex-item -->
                     <div class="flex-item">
                         <div class="screenshot-container">
-                            <img src="img/screenshot-monitoring_v2.jpg" alt="Real-time Monitoring & Trends" />
+                            <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/screenshot-monitoring_v2.jpg" alt="Real-time Monitoring & Trends" />
                         </div>
                         <span class="caption">Real-Time Monitoring & Trends</span>
                     </div><!-- end .flex-item -->
@@ -1249,7 +1249,7 @@ TEXT-DECORATION: none
                 <h2>Real-Time Alerts</h2>
                 <div class="flex-container">
                     <div class="flex-item">
-                        <div class="tablet-real-time"><img src="img/tablet-real-time@2x.png" /></div>
+                        <div class="tablet-real-time"><img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/tablet-real-time@2x.png" /></div>
                     </div>
                     <div class="flex-item">
                         <h2>Real-Time Alerts</h2>
@@ -1307,27 +1307,27 @@ TEXT-DECORATION: none
                     <ul class="slides">
                         <li>
                             <h5>Schedule KVS equipment and functions</h5>
-                            <img src="img/screenshot-ecp-schedule.jpg" />
+                            <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/screenshot-ecp-schedule.jpg" />
                         </li>
                         <li>
                             <h5>Change settings crucial to KVS operation</h5>
-                            <img src="img/screenshot-ecp-settings.jpg" />
+                            <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/screenshot-ecp-settings.jpg" />
                         </li>
                         <li>
                             <h5>Monitor equipment in real-time</h5>
-                            <img src="img/screenshot-monitoring.jpg" />
+                            <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/screenshot-monitoring.jpg" />
                         </li>
                         <li>
                             <h5>Schedule HVAC equipment</h5>
-                            <img src="img/screenshot-rtu-schedule.jpg" />
+                            <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/screenshot-rtu-schedule.jpg" />
                         </li>
                         <li>
                             <h5>Change settings crucial to HVAC operation</h5>
-                            <img src="img/screenshot-rtu-settings.jpg" />
+                            <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/screenshot-rtu-settings.jpg" />
                         </li>
                         <li>
                             <h5>Manage HVAC thermostat settings</h5>
-                            <img src="img/screenshot-rtu-thermostat.jpg" />
+                            <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/screenshot-rtu-thermostat.jpg" />
                         </li>
                     </ul>
                 </div>
@@ -1340,14 +1340,14 @@ TEXT-DECORATION: none
                 <p>Simply connect the factory-installed CASLink communication module to an available Ethernet&nbsp;connection.</p>
 
                 <div class="graphic-container">
-                    <img src="img/install-light-mask.png" />
+                    <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/install-light-mask.png" />
 
                     <h4 id="ethernet">Ethernet Cable</h4>
                     <h4 id="module">CASLink Communication Module</h4>
                     <h4 id="modem">Router, Switch, or Modem</h4>
                 </div>
                 <div class="graphic-container vertical">
-                    <img src="img/install-dark-vertical_v2.png" />
+                    <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/install-dark-vertical_v2.png" />
                 </div>
 
             </div><!-- end .container -->
