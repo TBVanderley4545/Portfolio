@@ -210,7 +210,7 @@ header a#HomeLogo {
   left: 1rem;
   top: 14px;
   background-color: #d22126;
-  background-image: url('/CaptiveAireProject/images/CaptiveAire/design/CASLogo_Label@2x.png');
+  background-image: url('/CaptiveAireProject/images/Captiveaire/design/CASLogo_Label@2x.png');
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 4px;
@@ -1085,7 +1085,7 @@ header.logged-in.shorter .material-nav a:last-of-type {
     right: 0;
     bottom: 0;
     height: 100%;
-    background-image: url('/CaptiveAireProject/images/CaptiveAire/design/SearchIcon_135.png');
+    background-image: url('/CaptiveAireProject/images/Captiveaire/design/SearchIcon_135.png');
     background-position: 20% 50%;
     background-size: auto 75%;
   }
@@ -1977,7 +1977,7 @@ header.logged-in.shorter .material-nav a:last-of-type {
     right: 0;
     bottom: 0;
     height: 100%;
-    background-image: url('/CaptiveAireProject/images/CaptiveAire/design/SearchIcon_135.png');
+    background-image: url('/CaptiveAireProject/images/Captiveaire/design/SearchIcon_135.png');
     background-position: 20% 50%;
     background-size: auto 75%;
   }
@@ -2949,7 +2949,7 @@ section {
 }
 .casMenuItem {
   display: block;
-  background: url('/CaptiveAireProject/images/CaptiveAire/design/CatalogListBackground.png')
+  background: url('/CaptiveAireProject/images/Captiveaire/design/CatalogListBackground.png')
     no-repeat 0 0;
   width: 240px;
   height: 84px;
@@ -3259,7 +3259,7 @@ div#cas_filtration_list {
   overflow: hidden;
   text-decoration: none;
   text-transform: uppercase;
-  background: url('/CaptiveAireProject/images/CaptiveAire/design/btnMoreInformation.jpg') no-repeat 0
+  background: url('/CaptiveAireProject/images/Captiveaire/design/btnMoreInformation.jpg') no-repeat 0
     0;
   position: absolute;
   bottom: 5px;
@@ -3311,7 +3311,7 @@ div#cas_filtration_list {
   text-decoration: underline;
 }
 .cas_product_information a.pdf_download {
-  background-image: url('/CaptiveAireProject/images/CaptiveAire/design/pdf_download.png/');
+  background-image: url('/CaptiveAireProject/images/Captiveaire/design/pdf_download.png/');
   background-repeat: no-repeat;
   background-position: left 50%;
   background-size: auto 50%;
