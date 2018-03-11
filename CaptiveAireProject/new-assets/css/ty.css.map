@@ -1,0 +1,1 @@
+{"version":3,"sources":["../less/ty.less"],"names":[],"mappings":"AAAA;EACE,YAAA;EACA,WAAA;;AAFF,sBAKE,kBACE;EACE,WAAA;EACA,MAAA","sourcesContent":[".animated-icon-wrapper {\r\n  height: 100%;\r\n  width: 100%;\r\n\r\n  //Thermometer Styling\r\n  .thermometer-icon {\r\n    .thermometer-fill {\r\n      height: 37%;\r\n      y: 147;\r\n    }\r\n  }\r\n}\r\n"]}
