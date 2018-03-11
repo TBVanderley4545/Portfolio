@@ -1662,7 +1662,7 @@ TEXT-DECORATION: none
 </script>
 
 </body>
-    <script src="/JS/flexslider/jquery.flexslider.js"></script>
+    <script src="CaptiveAireProject/JS/flexslider/jquery.flexslider.js"></script>
     <script type="text/javascript">
 
         $(document).ready(function () {
