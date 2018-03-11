@@ -892,37 +892,37 @@ TEXT-DECORATION: none
             <div class="LinkWrap nav-swiper-wrapper">
                 <a href="/catalog/showCatalogList.asp?cattypeid=15" class="First swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_direct-fired@2x.png" alt="Direct Fired" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_direct-fired@2x.png" alt="Direct Fired" />
                     </div>
                     <p>Direct Fired</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=106" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_compact-direct-fired@2x.png" alt="Direct Fired Compact" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_compact-direct-fired@2x.png" alt="Direct Fired Compact" />
                     </div>
                     <p>Direct Fired Compact</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=16" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_indirect-fired@2x.png" alt="Indirect Fired" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_indirect-fired@2x.png" alt="Indirect Fired" />
                     </div>
                     <p>Indirect Fired</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=78" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_electric@2x.png" alt="Electric" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_electric@2x.png" alt="Electric" />
                     </div>
                     <p>Electric</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=82" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_direct-fired-horizontal@2x.png" alt="Direct Fired Horizontal" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_direct-fired-horizontal@2x.png" alt="Direct Fired Horizontal" />
                     </div>
                     <p>Direct Fired Horizontal</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=83" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/heaters_direct-fired-vertical@2x.png" alt="Direct Fired Vertical" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/heaters_direct-fired-vertical@2x.png" alt="Direct Fired Vertical" />
                     </div>
                     <p>Direct Fired Vertical</p>
                 </a>
@@ -933,31 +933,31 @@ TEXT-DECORATION: none
             <div class="LinkWrap nav-swiper-wrapper">
                 <a href="/catalog/showCatalogList.asp?cattypeid=93" class="First swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_accessories@2x.png" alt="Accessories" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_accessories@2x.png" alt="Accessories" />
                     </div>
                     <p>Accessories</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=7" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_inline-filtered@2x.png" alt="Inline Filtered" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_inline-filtered@2x.png" alt="Inline Filtered" />
                     </div>
                     <p>Inline Filtered</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=61" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_economy@2x.png" alt="Economy" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_economy@2x.png" alt="Economy" />
                     </div>
                     <p>Economy</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=162" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_mpu@2x.png" alt="Modular Packaged Unit" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_mpu@2x.png" alt="Modular Packaged Unit" />
                     </div>
                     <p>Modular Packaged Unit</p>
                 </a>
                 <a href="/catalog/showCatalogList.asp?cattypeid=6" class="swiper-slide">
                     <div class="ImgWrap">
-                        <img src="/images/captiveaire/navigation/makeup_rooftop-filtered@2x.png" alt="Rooftop Filtered" />
+                        <img src="/CaptiveAireProject/images/captiveaire/navigation/makeup_rooftop-filtered@2x.png" alt="Rooftop Filtered" />
                     </div>
                     <p>Rooftop Filtered</p>
                 </a>
