@@ -13,7 +13,7 @@ Template Name: 3 - CaptiveAire
     <meta name="viewport" content="width=device-width" />
     <title>CASLink: Cloud-Based Building Management</title>
     <link href="/CaptiveAireProject/JS/flexslider/flexslider.css" rel="stylesheet" />
-    <link href="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/css/caslink.css?v=310201842557" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/css/caslink.css?v=311201842557" rel="stylesheet" type="text/css" media="screen" />
     
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
