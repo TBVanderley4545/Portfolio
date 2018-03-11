@@ -623,6 +623,7 @@ TEXT-DECORATION: none
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
 <script src="/CaptiveAireProject/JS/ng-cas.js"></script>
+<link rel="stylesheet" href="/CaptiveAireProject/new-assets/css/ty.css"
 
 <link rel="shortcut icon" href="/CaptiveAireProject/favicon.ico" />
 
@@ -1127,7 +1128,7 @@ TEXT-DECORATION: none
                             </div>
                             <div class="remote-capabilities hvac">
                                 <div class="icon">
-                                  <div class="icon-wrapper">
+                                  <div class="animated-icon-wrapper">
                                     <svg class="thermometer-icon" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                                     <metadata>
                                       <rdf:RDF>
