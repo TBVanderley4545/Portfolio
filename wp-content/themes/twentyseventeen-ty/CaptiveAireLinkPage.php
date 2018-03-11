@@ -1129,22 +1129,22 @@ TEXT-DECORATION: none
                             <div class="remote-capabilities hvac">
                                 <div class="icon">
                                   <div class="animated-icon-wrapper">
-                                    <svg class="thermometer-icon" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                  <svg class="thermometer-icon" version="1.1" viewBox="-17 -5 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                                     <metadata>
-                                      <rdf:RDF>
-                                      <cc:Work rdf:about="">
+                                      <rdf:rdf>
+                                      <cc:work rdf:about="">
                                         <dc:format>image/svg+xml</dc:format>
-                                        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-                                        <dc:title/>
-                                      </cc:Work>
-                                      </rdf:RDF>
+                                        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+                                        <dc:title></dc:title>
+                                      </cc:work>
+                                      </rdf:rdf>
                                     </metadata>
                                     <g transform="translate(-100.76 -132.38)">
-                                      <circle cx="108.88" cy="165.66" r="6.8154" fill="#fff" stroke-width=".2076"/>
-                                      <rect x="105.97" y="132.38" width="5.5487" height="35.814" ry="2.7743" fill="#fff" stroke-width=".24968"/>
-                                      <rect class="thermometer-empty" x="107.5" y="134.52" width="2.6087" height="25.123" ry="1.9462" fill="#f5860d" stroke-width=".14339"/>
-                                      <rect x="100.76" y="145.19" width="16.036" height="1.8709" fill="#fff" stroke-width=".26458"/>
-                                      <rect class="thermometer-fill" x="106.57" y="160.89" width="4.3096" height=".001" ry="7.7465e-5" fill="#fff" stroke-width=".0011627"/>
+                                      <circle cx="108.88" cy="165.66" r="6.8154" fill="#fff" stroke-width=".2076"></circle>
+                                      <rect x="105.97" y="132.38" width="5.5487" height="35.814" ry="2.7743" fill="#fff" stroke-width=".24968"></rect>
+                                      <rect class="thermometer-empty" x="107.5" y="134.52" width="2.6087" height="25.123" ry="1.9462" fill="#f5860d" stroke-width=".14339"></rect>
+                                      <rect x="100.76" y="145.19" width="16.036" height="1.8709" fill="#fff" stroke-width=".26458"></rect>
+                                      <rect class="thermometer-fill" x="106.57" y="160.89" width="4.3096" height=".001" ry="7.7465e-5" fill="#fff" stroke-width=".0011627"></rect>
                                       <text x="114.86697" y="153.63365" fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="114.86697" y="153.63365" fill="#ffffff" stroke-width=".26458">-</tspan></text>
                                       <text x="112.92138" y="143.05812" fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="112.92138" y="143.05812" fill="#ffffff" stroke-width=".26458">+</tspan></text>
                                     </g>
