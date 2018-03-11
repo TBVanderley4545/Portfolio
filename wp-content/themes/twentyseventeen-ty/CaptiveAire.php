@@ -572,15 +572,15 @@ TEXT-DECORATION: none
 
 	</style>
 
-<link REL="STYLESHEET" TYPE="text/css" HREF="/include/SiteStyle.css">
+<link REL="STYLESHEET" TYPE="text/css" HREF="/CaptiveAire_Project/include/SiteStyle.css">
 
-	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-152.png" />
-    <link rel="apple-touch-icon" href="/images/Captiveaire/icons/apple-touch-icon.png" />
-	<link rel="shortcut icon" href="/images/Captiveaire/icons/favicon.png" />
-	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/CaptiveAire_Project/images/Captiveaire/icons/apple-touch-icon-precomposed-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/CaptiveAire_Project/images/Captiveaire/icons/apple-touch-icon-precomposed-76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/CaptiveAire_Project/images/Captiveaire/icons/apple-touch-icon-precomposed-120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/CaptiveAire_Project/images/Captiveaire/icons/apple-touch-icon-precomposed-152.png" />
+    <link rel="apple-touch-icon" href="/CaptiveAire_Project/images/Captiveaire/icons/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="/CaptiveAire_Project/images/Captiveaire/icons/favicon.png" />
+	<link rel="shortcut icon" href="/CaptiveAire_Project/favicon.ico" />
 
 	<!-- Analytics: -->
 	<script type="text/javascript"> 
