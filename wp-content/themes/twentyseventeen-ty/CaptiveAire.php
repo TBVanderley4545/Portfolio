@@ -621,7 +621,7 @@ TEXT-DECORATION: none
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
-<script src="/JS/ng-cas.js"></script>
+<script src="/CaptiveAireProject/JS/ng-cas.js"></script>
 
 <link rel="shortcut icon" href="/CaptiveAireProject/favicon.ico" />
 
