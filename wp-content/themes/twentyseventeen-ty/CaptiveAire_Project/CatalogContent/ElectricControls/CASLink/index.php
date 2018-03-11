@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: 2 - Wedding
+Template Name: 3 - CaptiveAire
 */
 ?>
 
