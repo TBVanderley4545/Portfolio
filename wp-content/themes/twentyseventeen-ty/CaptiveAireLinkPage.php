@@ -580,8 +580,8 @@ TEXT-DECORATION: none
     <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-120.png" />
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/Captiveaire/icons/apple-touch-icon-precomposed-152.png" />
     <link rel="apple-touch-icon" href="/images/Captiveaire/icons/apple-touch-icon.png" />
-	<link rel="shortcut icon" href="<?php echo home_url(); ?>/CaptiveAireProject/images/Captiveaire/icons/favicon.png" />
-	<link rel="shortcut icon" href="<?php echo home_url(); ?>/CaptiveAireProject/favicon.ico" />
+	<link rel="shortcut icon" href="/images/Captiveaire/icons/favicon.png" />
+	<link rel="shortcut icon" href="/favicon.ico" />
 
 	<!-- Analytics: -->
 	<script type="text/javascript"> 
@@ -600,7 +600,7 @@ TEXT-DECORATION: none
 
 </head>
 
-<link rel="stylesheet" type="text/css" href="/CaptiveAireProject/include/css/CasSiteStyle.min.css?v=37201852053" />
+<link rel="stylesheet" type="text/css" href="/include/css/CasSiteStyle.min.css?v=37201852053" />
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript">
 	if (typeof jQuery == 'undefined') {
@@ -624,7 +624,7 @@ TEXT-DECORATION: none
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
 <script src="/JS/ng-cas.js"></script>
 
-<link rel="shortcut icon" href="<?php echo home_url(); ?>/CaptiveAireProject/favicon.ico" />
+<link rel="shortcut icon" href="/favicon.ico" />
 
 
 <body ng-app="CASApp"  class="Main" >
