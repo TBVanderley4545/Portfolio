@@ -798,7 +798,7 @@ TEXT-DECORATION: none
                 </a>
                 <a href="/CatalogContent/Hoods/Accessories/Water%20Wash/SCManifoldList.asp" class="swiper-slide" title="Self Cleaning Remote Manifold and Controls">
                     <div class="ImgWrap">
-                        <img src="/CaptiveAireProject/CatalogContent/Hoods/Accessories/Water%20Wash/Images/SCSPanel_cas.png" alt="Self Cleaning Remote Manifold and Controls" />
+                        <img src="/CaptiveAireProject/CatalogContent/Hoods/Accessories/Water%2520Wash/Images/SCSPanel_cas.png" alt="Self Cleaning Remote Manifold and Controls" />
                     </div>
                     <p>Self Cleaning<span> Remote Manifold</span></p>
                 </a>
