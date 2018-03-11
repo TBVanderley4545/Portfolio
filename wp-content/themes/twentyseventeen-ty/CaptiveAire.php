@@ -11,13 +11,13 @@ Template Name: 3 - CaptiveAire
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>CASLink: Cloud-Based Building Management</title>
-    <link href="CaptiveAire_Project/JS/flexslider/flexslider.css" rel="stylesheet" />
-    <link href="CaptiveAire_Project/CatalogContent/ElectricControls/CASLink/css/caslink.css?v=310201842557" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/CaptiveAire_Project/JS/flexslider/flexslider.css" rel="stylesheet" />
+    <link href="/CaptiveAire_Project/CatalogContent/ElectricControls/CASLink/css/caslink.css?v=310201842557" rel="stylesheet" type="text/css" media="screen" />
     
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
 
-	<link REL="STYLESHEET" TYPE="text/css" HREF="CaptiveAire_Project/include/SiteStylePrint.css" MEDIA="Print">
+	<link REL="STYLESHEET" TYPE="text/css" HREF="/CaptiveAire_Project/include/SiteStylePrint.css" MEDIA="Print">
 	<style type="text/css">
 	.accountinfoCell {
 				COLOR: #001C33;
