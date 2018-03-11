@@ -82,10 +82,10 @@ div#TranslateBox li > ul > li {
   background-size: 18px;
 }
 div#TranslateBox li > ul > li#en {
-  background-image: url('/images/Captiveaire/design/IconEnglish@2x.png');
+  background-image: url('/CaptiveAireProject/images/Captiveaire/design/IconEnglish@2x.png');
 }
 div#TranslateBox li > ul > li#es {
-  background-image: url('/images/Captiveaire/design/IconSpanish@2x.png');
+  background-image: url('/CaptiveAireProject/images/Captiveaire/design/IconSpanish@2x.png');
 }
 div#TranslateBox li > ul > li:hover {
   background-color: #212121;
@@ -119,10 +119,10 @@ div#TranslateBox #LangBtn > i.fa {
   content: 'Español';
 }
 .no-backgroundsize div#TranslateBox li > ul > li#en {
-  background-image: url('/images/Captiveaire/design/IconEnglish.png');
+  background-image: url('/CaptiveAireProject/images/Captiveaire/design/IconEnglish.png');
 }
 .no-backgroundsize div#TranslateBox li > ul > li#es {
-  background-image: url('/images/Captiveaire/design/IconSpanish.png');
+  background-image: url('/CaptiveAireProject/images/Captiveaire/design/IconSpanish.png');
 }
 a.goog-logo-link {
   display: none;
@@ -367,14 +367,14 @@ header .material-nav a.social-icon {
   font-size: 0;
 }
 header .material-nav a.social-icon#youtube-link {
-  background-image: url('/images/logos/yt_icon_rgb_96.png');
+  background-image: url('/CaptiveAireProject/images/logos/yt_icon_rgb_96.png');
   background-position: 50% 57.5%;
   background-size: auto 63.15%;
   color: #cd201f;
   width: 48px;
 }
 header .material-nav a.social-icon#instagram-link {
-  background-image: url('/images/logos/IG_Glyph_Fill.png');
+  background-image: url('/CaptiveAireProject/images/logos/IG_Glyph_Fill.png');
   background-size: auto 73.68%;
   color: #e03667;
   width: 42px;
@@ -1085,7 +1085,7 @@ header.logged-in.shorter .material-nav a:last-of-type {
     right: 0;
     bottom: 0;
     height: 100%;
-    background-image: url('/images/CaptiveAire/design/SearchIcon_135.png');
+    background-image: url('/CaptiveAireProject/images/CaptiveAire/design/SearchIcon_135.png');
     background-position: 20% 50%;
     background-size: auto 75%;
   }
@@ -1977,7 +1977,7 @@ header.logged-in.shorter .material-nav a:last-of-type {
     right: 0;
     bottom: 0;
     height: 100%;
-    background-image: url('/images/CaptiveAire/design/SearchIcon_135.png');
+    background-image: url('/CaptiveAireProject/images/CaptiveAire/design/SearchIcon_135.png');
     background-position: 20% 50%;
     background-size: auto 75%;
   }
@@ -2491,123 +2491,123 @@ header.logged-in.shorter .material-nav a:last-of-type {
 }
 @font-face {
   font-family: 'HelveticaNeueW01-37ThinCn';
-  src: url('/include/Fonts/HelveticaNeueW01-37ThinCn.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-37ThinCn.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-37ThinCn.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-37ThinCn.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-37ThinCnOb';
-  src: url('/include/Fonts/HelveticaNeueW01-37ThinCnOb.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-37ThinCnOb.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-37ThinCnOb.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-37ThinCnOb.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-47LtCn';
-  src: url('/include/Fonts/HelveticaNeueW01-47LtCn.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-47LtCn.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-47LtCn.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-47LtCn.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-47LtCnOb';
-  src: url('/include/Fonts/HelveticaNeueW01-47LtCnOb.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-47LtCnOb.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-47LtCnOb.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-47LtCnOb.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-57Cn';
-  src: url('/include/Fonts/HelveticaNeueW01-57Cn.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-57Cn.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-57Cn.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-57Cn.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-57CnOb';
-  src: url('/include/Fonts/HelveticaNeueW01-57CnOb.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-57CnOb.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-57CnOb.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-57CnOb.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-65Md';
-  src: url('/include/Fonts/HelveticaNeueW01-65Md.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-65Md.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-65Md.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-65Md.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-67MdCn';
-  src: url('/include/Fonts/HelveticaNeueW01-67MdCn.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-67MdCn.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-67MdCn.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-67MdCn.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-67MdCnOb';
-  src: url('/include/Fonts/HelveticaNeueW01-67MdCnOb.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-67MdCnOb.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-67MdCnOb.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-67MdCnOb.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-77BdCn';
-  src: url('/include/Fonts/HelveticaNeueW01-77BdCn.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-77BdCn.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-77BdCn.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-77BdCn.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01-77BdCnOb';
-  src: url('/include/Fonts/HelveticaNeueW01-77BdCnOb.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-77BdCnOb.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-77BdCnOb.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-77BdCnOb.ttf') format('truetype');
 }
 @font-face {
   font-family: 'HelveticaNeueW01';
-  src: url('/include/Fonts/HelveticaNeueW01-37ThinCn.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-37ThinCn.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-37ThinCn.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-37ThinCn.ttf') format('truetype');
   font-stretch: condensed;
   font-weight: 200;
 }
 @font-face {
   font-family: 'HelveticaNeueW01';
-  src: url('/include/Fonts/HelveticaNeueW01-37ThinCnOb.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-37ThinCnOb.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-37ThinCnOb.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-37ThinCnOb.ttf') format('truetype');
   font-stretch: condensed;
   font-style: oblique;
   font-weight: 200;
 }
 @font-face {
   font-family: 'HelveticaNeueW01';
-  src: url('/include/Fonts/HelveticaNeueW01-35Thin.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-35Thin.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-35Thin.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-35Thin.ttf') format('truetype');
   font-stretch: normal;
   font-weight: 200;
 }
 @font-face {
   font-family: 'HelveticaNeueW01';
-  src: url('/include/Fonts/HelveticaNeueW01-47LtCn.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-47LtCn.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-47LtCn.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-47LtCn.ttf') format('truetype');
   font-stretch: condensed;
   font-weight: 300;
 }
 @font-face {
   font-family: 'HelveticaNeueW01';
-  src: url('/include/Fonts/HelveticaNeueW01-47LtCnOb.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-47LtCnOb.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-47LtCnOb.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-47LtCnOb.ttf') format('truetype');
   font-stretch: condensed;
   font-style: oblique;
   font-weight: 300;
 }
 @font-face {
   font-family: 'HelveticaNeueW01';
-  src: url('/include/Fonts/HelveticaNeueW01-55Roma.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-55Roma.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-55Roma.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-55Roma.ttf') format('truetype');
   font-stretch: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'HelveticaNeueW01';
-  src: url('/include/Fonts/HelveticaNeueW01-57CnOb.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-57CnOb.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-57CnOb.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-57CnOb.ttf') format('truetype');
   font-stretch: condensed;
   font-style: oblique;
   font-weight: normal;
 }
 @font-face {
   font-family: 'HelveticaNeueW01';
-  src: url('/include/Fonts/HelveticaNeueW01-66Medi.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-66Medi.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-66Medi.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-66Medi.ttf') format('truetype');
   font-stretch: normal;
   font-style: oblique;
   font-weight: 500;
 }
 @font-face {
   font-family: 'HelveticaNeueW01';
-  src: url('/include/Fonts/HelveticaNeueW01-67MdCn.woff') format('woff'),
-    url('/include/Fonts/HelveticaNeueW01-67MdCn.ttf') format('truetype');
+  src: url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-67MdCn.woff') format('woff'),
+    url('/CaptiveAireProject/include/Fonts/HelveticaNeueW01-67MdCn.ttf') format('truetype');
   font-stretch: condensed;
   font-weight: 500;
 }
@@ -2923,7 +2923,7 @@ section {
   width: 173px;
   height: 42px;
   margin-right: 34px;
-  background: url(/images/logos/E-Verify_Logo_4-Color_RGB_smaller.jpg) no-repeat
+  background: url('/CaptiveAireProject/images/logos/E-Verify_Logo_4-Color_RGB_smaller.jpg') no-repeat
     0 0;
   background-size: 100%;
 }
@@ -2939,7 +2939,7 @@ section {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   #Everify a {
-    background: url(/images/logos/E-Verify_Logo_4-Color_RGB_smaller@2x.jpg)
+    background: url('/CaptiveAireProject/images/logos/E-Verify_Logo_4-Color_RGB_smaller@2x.jpg')
       no-repeat 0 0;
     background-size: 100%;
   }
@@ -2949,7 +2949,7 @@ section {
 }
 .casMenuItem {
   display: block;
-  background: url('/images/CaptiveAire/design/CatalogListBackground.png')
+  background: url('/CaptiveAireProject/images/CaptiveAire/design/CatalogListBackground.png')
     no-repeat 0 0;
   width: 240px;
   height: 84px;
@@ -3259,7 +3259,7 @@ div#cas_filtration_list {
   overflow: hidden;
   text-decoration: none;
   text-transform: uppercase;
-  background: url(/images/CaptiveAire/design/btnMoreInformation.jpg) no-repeat 0
+  background: url('/CaptiveAireProject/images/CaptiveAire/design/btnMoreInformation.jpg') no-repeat 0
     0;
   position: absolute;
   bottom: 5px;
@@ -3311,7 +3311,7 @@ div#cas_filtration_list {
   text-decoration: underline;
 }
 .cas_product_information a.pdf_download {
-  background-image: url(/images/CaptiveAire/design/pdf_download.png);
+  background-image: url('/CaptiveAireProject/images/CaptiveAire/design/pdf_download.png/');
   background-repeat: no-repeat;
   background-position: left 50%;
   background-size: auto 50%;
