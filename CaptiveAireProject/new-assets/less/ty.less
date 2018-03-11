@@ -4,21 +4,21 @@
 
   //Thermometer Styling
   .thermometer-icon {
+    &:hover {
+      animation: temperature-change 1.4s infinite ease-in-out both;
+    }
+
+    @keyframes temperature-change {
+      0%   {y: 147;}
+      25%  {y: 142;}
+      50%  {y: 147;}
+      75%  {y: 153;}
+      100% {y: 147;}
+    }
+    
     .thermometer-fill {
       height: 37%;
       y: 147;
-
-      &:hover {
-        animation: temperature-change 1.4s infinite ease-in-out both;
-      }
-
-      @keyframes temperature-change {
-        0%   {y: 147;}
-        25%  {y: 142;}
-        50%  {y: 147;}
-        75%  {y: 153;}
-        100% {y: 147;}
-      }
     }
   }
 }
