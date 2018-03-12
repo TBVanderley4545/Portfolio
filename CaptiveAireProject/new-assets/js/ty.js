@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   // Variable for the image load
-  let primaryPageImage = $("html #caslink-wrapper section .imac-monitoring");
+  let primaryPageImage = document.getElementsByClassName("imac-monitoring")[0];
 
   // Thermometer variables
   let thermometerIcon = document.getElementById("thermometer-icon-container");
