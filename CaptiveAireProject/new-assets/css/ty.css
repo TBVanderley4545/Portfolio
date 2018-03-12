@@ -1,3 +1,17 @@
+@media screen and (min-width: 736px) {
+  html #caslink-wrapper section .imac-monitoring {
+    opacity: 0;
+    top: -40px;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: background-all 1s ease-out;
+    transition: all 1s ease-out;
+  }
+  html #caslink-wrapper section .imac-monitoring.loaded {
+    opacity: 1;
+    top: 0px;
+  }
+}
 #caslink-wrapper section.interface .flex-direction-nav a.flex-next:hover,
 #caslink-wrapper section.interface .flex-direction-nav a.flex-prev:hover {
   transform: scale(1.3);

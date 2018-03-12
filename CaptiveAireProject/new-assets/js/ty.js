@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+  // Variable for the image load
+  let primaryPageImage = $("html #caslink-wrapper section .imac-monitoring");
+
   // Thermometer variables
   let thermometerIcon = document.getElementById("thermometer-icon-container");
   let thermometerFill = document.getElementsByClassName("thermometer-fill")[0];
@@ -17,6 +20,11 @@ $(document).ready(function () {
   // Light variables
   let lightIcon = document.getElementById("light-icon-container");
   let lightBeams = document.getElementsByClassName("light-beam");
+
+  // This code is being used to transition in the primary image
+  if(!primaryPageImage.classList.contains("loaded")) {
+    primaryPageImage.classList.add("loaded");
+  }
 
 
   // This code is being used to target the thermometer icon animation.

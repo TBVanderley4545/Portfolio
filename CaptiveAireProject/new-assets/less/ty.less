@@ -1,3 +1,28 @@
+// This code is to animate the first image on page as it loads.
+@media screen and (min-width: 736px) {
+  html {
+    #caslink-wrapper {
+      section {
+        .imac-monitoring {
+          opacity: 0;
+          top: -40px;
+          -webkit-transition: all 1s ease-out;
+          -moz-transition: all 1s ease-out;
+          -o-transition: background-all 1s ease-out;
+          transition: all 1s ease-out;
+        
+        }
+
+        .imac-monitoring.loaded {
+          opacity: 1;
+          top: 0px;
+        }
+      }
+    }
+  }
+}
+
+// This code animates the buttons for the slider
 #caslink-wrapper {
   section.interface {
     .flex-direction-nav {
@@ -12,7 +37,6 @@
     }
   }
 }
-
 
 // Below is for all of the animations on the initial 4 images.
 #thermometer-icon-container {
@@ -256,6 +280,6 @@
   100% {
     // -webkit-transform: rotate(30deg);
     // transform: rotate(30deg);
-    opacity:1;
+    opacity: 1;
   }
 }
