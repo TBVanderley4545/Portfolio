@@ -15,8 +15,8 @@ $(document).ready(function () {
   let ventilationFumes3 = document.getElementsByClassName("ventilation-fumes")[2];
 
   // Light variables
-  let lightIcon = document.getElementById("ventilation-icon-container");
-  let lightBeams = document.getElementsByClassName("ventilation-fumes");
+  let lightIcon = document.getElementById("light-icon-container");
+  let lightBeams = document.getElementsByClassName("light-beam");
 
 
   // This code is being used to target the thermometer icon animation.
@@ -79,15 +79,15 @@ $(document).ready(function () {
   // This code is being use to target the light animation.
   lightIcon.addEventListener("mouseover", function () {
     for (var i = 0; i < lightBeams.length; i++) {
-      if (!lightBeams[i].classList.contains("tachometer-needle-active")) {
+      if (!lightBeams[i].classList.contains("light-beam-active")) {
         lightBeams[i].classList.add("light-beam-active");
       }
     }
   });
 
-  tachometerIcon.addEventListener("mouseout", function () {
+  lightIcon.addEventListener("mouseout", function () {
     for (var i = 0; i < lightBeams.length; i++) {
-      if (lightBeams[i].classList.contains("tachometer-needle-active")) {
+      if (lightBeams[i].classList.contains("light-beam-active")) {
         lightBeams[i].classList.remove("light-beam-active");
       }
     }
