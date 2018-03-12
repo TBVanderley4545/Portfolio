@@ -19,10 +19,13 @@ $(document).ready(function () {
   // });
 
   $("#thermometer-icon-container").hover(function() {
-    alert("hell0");
+    if(!$(".thermometer-fill").hasClass("thermometer-fill-active")) {
+      $(".thermometer-fill").addClass("thermometer-fill-active");
+    }
   }, function() {
-    alert("goodbye");
-  });
+    if($(".thermometer-fill").hasClass("thermometer-fill-active")) {
+      $(".thermometer-fill").removeClass("thermometer-fill-active");
+    }  });
 
 
   /********************
