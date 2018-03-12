@@ -5,7 +5,7 @@ $(document).ready(function () {
   thermometerIcon.addEventListener("mouseover", function() {
     let thermometerFill = document.getElementsByClassName("thermometer-fill");
 
-    thermometerFill.classList.add("thermometer-fill-active");
+    thermometerFill[0].classList.add("thermometer-fill-active");
   });
 
   // This code is being used to target the thermometer icon animation.
