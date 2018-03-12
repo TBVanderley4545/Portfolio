@@ -30,7 +30,7 @@ $(document).ready(function () {
 
 
   // This code is being use to target the tachometer animation.
-  tachometerIcon.addEventListener("mouseover", function() {
+  tachometerIcon.addEventListener("mouseover", function () {
     if (!tachometerNeedle.classList.contains("tachometer-needle-active")) {
       tachometerNeedle.classList.add("tachometer-needle-active");
     }
@@ -43,32 +43,32 @@ $(document).ready(function () {
   });
 
 
-    // This code is being use to target the Ventilation Fumes animation.
-    ventilationIcon.addEventListener("mouseover", function() {
-      if (!ventilationFumes1.classList.contains("ventilation-fumes-active-1")) {
-        ventilationFumes1.classList.add("ventilation-fumes-active-1");
-      }
+  // This code is being use to target the Ventilation Fumes animation.
+  ventilationIcon.addEventListener("mouseover", function () {
+    if (!ventilationFumes1.classList.contains("ventilation-fumes-active-1")) {
+      ventilationFumes1.classList.add("ventilation-fumes-active-1");
+    }
 
-      if (!ventilationFumes2.classList.contains("ventilation-fumes-active-2")) {
-        ventilationFumes2.classList.add("ventilation-fumes-active-2");
-      }
+    if (!ventilationFumes2.classList.contains("ventilation-fumes-active-2")) {
+      ventilationFumes2.classList.add("ventilation-fumes-active-2");
+    }
 
-      if (!ventilationFumes3.classList.contains("ventilation-fumes-active-3")) {
-        ventilationFumes3.classList.add("ventilation-fumes-active-3");
-      }
-    });
-  
-    ventilationIcon.addEventListener("mouseout", function () {
-      if (ventilationFumes1.classList.contains("ventilation-fumes-active-1")) {
-        ventilationFumes1.classList.remove("ventilation-fumes-active-1");
-      }
+    if (!ventilationFumes3.classList.contains("ventilation-fumes-active-3")) {
+      ventilationFumes3.classList.add("ventilation-fumes-active-3");
+    }
+  });
 
-      if (ventilationFumes2.classList.contains("ventilation-fumes-active-2")) {
-        ventilationFumes2.classList.remove("ventilation-fumes-active-2");
-      }
+  ventilationIcon.addEventListener("mouseout", function () {
+    if (ventilationFumes1.classList.contains("ventilation-fumes-active-1")) {
+      ventilationFumes1.classList.remove("ventilation-fumes-active-1");
+    }
 
-      if (ventilationFumes3.classList.contains("ventilation-fumes-active-3")) {
-        ventilationFumes3.classList.remove("ventilation-fumes-active-3");
-      }
-    });
+    if (ventilationFumes2.classList.contains("ventilation-fumes-active-2")) {
+      ventilationFumes2.classList.remove("ventilation-fumes-active-2");
+    }
+
+    if (ventilationFumes3.classList.contains("ventilation-fumes-active-3")) {
+      ventilationFumes3.classList.remove("ventilation-fumes-active-3");
+    }
+  });
 });
