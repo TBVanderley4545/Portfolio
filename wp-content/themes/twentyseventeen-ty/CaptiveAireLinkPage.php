@@ -1128,8 +1128,7 @@ TEXT-DECORATION: none
                                 </ul>
                             </div>
                             <div class="remote-capabilities hvac">
-                                <div class="icon">
-                                  <div class="animated-icon-wrapper">
+                                <div class="icon" id="thermometer-icon">
                                   <svg class="thermometer-icon" version="1.1" viewBox="-17 -5 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                                     <metadata>
                                       <rdf:rdf>
@@ -1150,7 +1149,6 @@ TEXT-DECORATION: none
                                       <text x="112.92138" y="143.05812" fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="112.92138" y="143.05812" fill="#ffffff" stroke-width=".26458">+</tspan></text>
                                     </g>
                                     </svg>
-                                  </div>
                                 </div>
                                 <h4>HVAC</h4>
                                 <ul class="hvac-list">

@@ -1,12 +1,8 @@
-.animated-icon-wrapper {
-  height: 100%;
-  width: 100%;
-}
-.animated-icon-wrapper .thermometer-icon .thermometer-fill {
+#thermometer-icon .thermometer-icon .thermometer-fill {
   height: 37%;
   y: 147;
 }
-.animated-icon-wrapper .thermometer-icon .thermometer-fill-active {
+#thermometer-icon .thermometer-icon .thermometer-fill-active {
   animation: temperature-change 1.4s 1 ease-in-out both;
 }
 @keyframes temperature-change {

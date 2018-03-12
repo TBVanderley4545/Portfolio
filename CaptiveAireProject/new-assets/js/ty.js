@@ -3,7 +3,7 @@ $(document).ready(function () {
   alert("Javascript loaded");
 
   // This code is being used to target the thermometer icon animation.
-  $('.thermometer-icon').hover(
+  $('#thermometer-icon').hover(
     function () {
       if (!$('.thermometer-fill').hasClass('thermometer-fill-active')) {
         $('.thermometer-fill').addClass('thermometer-fill-active')
