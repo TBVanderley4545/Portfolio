@@ -20,6 +20,8 @@ $(document).ready(function () {
 
   $("#thermometer-icon-container").hover(function() {
     alert("hell0");
+  }, function() {
+    alert("goodbye");
   });
 
 
