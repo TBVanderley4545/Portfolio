@@ -8,6 +8,11 @@ $(document).ready(function () {
   let tachometerIcon = document.getElementById("tachometer-icon-container");
   let tachometerNeedle = document.getElementsByClassName("tachometer-needle")[0];
 
+  // Ventilation variables
+  let ventilationIcon = document.getElementById("ventilation-icon-container");
+  let ventilationFumes1 = document.getElementsByClassName("ventilation-fumes")[0];
+  let ventilationFumes2 = document.getElementsByClassName("ventilation-fumes")[1];
+  let ventilationFumes3 = document.getElementsByClassName("ventilation-fumes")[2];
 
 
   // This code is being used to target the thermometer icon animation.
@@ -36,4 +41,34 @@ $(document).ready(function () {
       tachometerNeedle.classList.remove("tachometer-needle-active");
     }
   });
+
+
+    // This code is being use to target the Ventilation Fumes animation.
+    ventilationIcon.addEventListener("mouseover", function() {
+      if (!ventilationFumes1.classList.contains("ventilation-fumes-active-1")) {
+        ventilationFumes1.classList.add("ventilation-fumes-active-1");
+      }
+
+      if (!ventilationFumes2.classList.contains("ventilation-fumes-active-2")) {
+        ventilationFumes2.classList.add("ventilation-fumes-active-2");
+      }
+
+      if (!ventilationFumes3.classList.contains("ventilation-fumes-active-3")) {
+        ventilationFumes3.classList.add("ventilation-fumes-active-3");
+      }
+    });
+  
+    ventilationIcon.addEventListener("mouseout", function () {
+      if (ventilationFumes1.classList.contains("ventilation-fumes-active-1")) {
+        ventilationFumes1.classList.remove("ventilation-fumes-active-1");
+      }
+
+      if (ventilationFumes2.classList.contains("ventilation-fumes-active-2")) {
+        ventilationFumes2.classList.remove("ventilation-fumes-active-2");
+      }
+
+      if (ventilationFumes3.classList.contains("ventilation-fumes-active-3")) {
+        ventilationFumes3.classList.remove("ventilation-fumes-active-3");
+      }
+    });
 });
