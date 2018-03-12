@@ -1167,7 +1167,35 @@ TEXT-DECORATION: none
                                 </ul>
                             </div>
                             <div class="remote-capabilities monitoring">
-                                <div class="icon"></div>
+                                <div class="icon" id="tachometer-icon-container">
+                                  <svg class="tachometer-icon" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                    <metadata>
+                                      <rdf:RDF>
+                                      <cc:Work rdf:about="">
+                                        <dc:format>image/svg+xml</dc:format>
+                                        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                                        <dc:title/>
+                                      </cc:Work>
+                                      </rdf:RDF>
+                                    </metadata>
+                                    <path d="m3.1096 27.751c-1.3659-2.8129-1.9997-5.9775-1.8224-9.0995 0.17728-3.122 1.1652-6.1945 2.8407-8.8347 1.6755-2.6402 4.0349-4.8424 6.7843-6.3321 2.7494-1.4897 5.8826-2.2637 9.0094-2.2255 3.0954 0.037781 6.1778 0.87108 8.8706 2.3981 2.6928 1.527 4.9903 3.7445 6.6117 6.3815 1.6214 2.637 2.5634 5.6879 2.7109 8.78 0.14743 3.0921-0.50002 6.2188-1.8632 8.9981" fill="none" stroke="#fff" stroke-width="2.516"/>
+                                    <g fill="#fff">
+                                      <rect x="2.0944" y="26.311" width="10.884" height="1.4397" ry=".71986" stroke="#fff" stroke-width="1.2635"/>
+                                      <rect x="26.426" y="26.377" width="10.884" height="1.4397" ry=".71986" stroke="#fff" stroke-width="1.2635"/>
+                                      <g stroke-width="0">
+                                      <ellipse cx="19.693" cy="27.227" rx="2.8756" ry="2.8756"/>
+                                      <rect x="33.093" y="19.018" width="5.2259" height="2.8772" ry="0"/>
+                                      <rect x=".98836" y="19.02" width="5.2259" height="2.8772" ry="0"/>
+                                      <rect transform="rotate(28.901)" x="8.1914" y="6.5752" width="5.2259" height="2.8772" ry="0"/>
+                                      <rect transform="matrix(.87546 -.4833 -.4833 -.87546 0 0)" x="21.523" y="-29.497" width="5.2259" height="2.8772" ry="0"/>
+                                      <rect transform="matrix(-.5234 -.85209 -.85209 .5234 0 0)" x="-13.877" y="-7.9504" width="5.2259" height="2.8772" ry="0"/>
+                                      <rect transform="rotate(121.56)" x="-12.478" y="-29.326" width="5.2259" height="2.8772" ry="0"/>
+                                      <rect transform="rotate(90)" x=".74208" y="-21.142" width="5.2259" height="2.8772" ry="0"/>
+                                      <path d="m12.198 14.042c0.61687-0.37746 1.0011 0.6765 1.6368 1.6896l9.2537 14.749c0.63564 1.0131 0.58405 2.1708-0.03282 2.5483-0.61687 0.37746-1.6473-0.12402-2.1941-1.1856l-7.9754-15.483c-0.50088-0.97239-1.305-1.9401-0.68816-2.3176z"/>
+                                      </g>
+                                    </g>
+                                  </svg>
+                                </div>                              
                                 <h4>Additional Monitoring</h4>
                                 <ul class="monitoring-list">
                                     <li><span>Building pressures</span></li>
