@@ -1,5 +1,4 @@
 #thermometer-icon-container {
-  //Thermometer Styling
   .thermometer-icon {
     .thermometer-fill {
       height: 37%;
@@ -8,6 +7,19 @@
 
     .thermometer-fill-active {
       animation: temperature-change 1.4s 1 ease-in-out both;
+    }
+  }
+}
+
+#tachometer-icon-container {
+  .tachometer-icon {
+    .tachometer-needle {
+      transform: rotate(13deg);
+      transform-origin: 40% 54%;
+    }
+
+    .tachometer-needle-active {
+      animation: ;
     }
   }
 }
@@ -25,5 +37,21 @@
   }
   100% {
     y: 147;
+  }
+}
+
+// Define the keyframe animation for the tachometer svg.
+@keyframes temperature-change {
+  0% {
+    transform: rotate(13deg);
+  }
+  33% {
+    transform: rotate(-10eg);
+  }
+  66% {
+    transform: rotate(61deg);
+  }
+  100% {
+    transform: rotate(30deg);
   }
 }

@@ -1168,7 +1168,7 @@ TEXT-DECORATION: none
                             </div>
                             <div class="remote-capabilities monitoring">
                                 <div class="icon" id="tachometer-icon-container">
-                                  <svg class="tachometer-icon" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                  <svg class="tachometer-icon" version="1.1" viewBox="-5 -8 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                                     <metadata>
                                       <rdf:RDF>
                                       <cc:Work rdf:about="">
@@ -1191,7 +1191,7 @@ TEXT-DECORATION: none
                                       <rect transform="matrix(-.5234 -.85209 -.85209 .5234 0 0)" x="-13.877" y="-7.9504" width="5.2259" height="2.8772" ry="0"/>
                                       <rect transform="rotate(121.56)" x="-12.478" y="-29.326" width="5.2259" height="2.8772" ry="0"/>
                                       <rect transform="rotate(90)" x=".74208" y="-21.142" width="5.2259" height="2.8772" ry="0"/>
-                                      <path d="m12.198 14.042c0.61687-0.37746 1.0011 0.6765 1.6368 1.6896l9.2537 14.749c0.63564 1.0131 0.58405 2.1708-0.03282 2.5483-0.61687 0.37746-1.6473-0.12402-2.1941-1.1856l-7.9754-15.483c-0.50088-0.97239-1.305-1.9401-0.68816-2.3176z"/>
+                                      <path class="tachometer-needle" d="m12.198 14.042c0.61687-0.37746 1.0011 0.6765 1.6368 1.6896l9.2537 14.749c0.63564 1.0131 0.58405 2.1708-0.03282 2.5483-0.61687 0.37746-1.6473-0.12402-2.1941-1.1856l-7.9754-15.483c-0.50088-0.97239-1.305-1.9401-0.68816-2.3176z"/>
                                       </g>
                                     </g>
                                   </svg>
