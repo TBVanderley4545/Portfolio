@@ -10,7 +10,7 @@
   transform-origin: 40% 54%;
 }
 #tachometer-icon-container .tachometer-icon .tachometer-needle-active {
-  animation: ;
+  animation: tachometer-change 1.4s 1 ease-in-out both;
 }
 @keyframes temperature-change {
   0% {
@@ -26,7 +26,7 @@
     y: 147;
   }
 }
-@keyframes temperature-change {
+@keyframes tachometer-change {
   0% {
     transform: rotate(13deg);
   }

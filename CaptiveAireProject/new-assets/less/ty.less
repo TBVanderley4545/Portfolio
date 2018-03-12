@@ -19,7 +19,7 @@
     }
 
     .tachometer-needle-active {
-      animation: ;
+      animation: tachometer-change 1.4s 1 ease-in-out both;
     }
   }
 }
@@ -41,7 +41,7 @@
 }
 
 // Define the keyframe animation for the tachometer svg.
-@keyframes temperature-change {
+@keyframes tachometer-change {
   0% {
     transform: rotate(13deg);
   }
