@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+  alert("Javascript loaded");
+
   // This code is being used to target the thermometer icon animation.
   $('.thermometer-icon').hover(
     function () {
