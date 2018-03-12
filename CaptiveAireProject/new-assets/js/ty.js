@@ -1,6 +1,10 @@
 $(document).ready(function () {
 
-  alert("Javascript loaded");
+  let thermometerIcon = document.getElementById("thermometer-icon");
+
+  thermometerIcon.onclick = function() {
+    alert("hello, there");
+  }
 
   // This code is being used to target the thermometer icon animation.
   $('#thermometer-icon').hover(
