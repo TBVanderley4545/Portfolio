@@ -3,34 +3,60 @@
   y: 147;
 }
 #thermometer-icon-container .thermometer-icon .thermometer-fill-active {
+  -webkit-animation: temperature-change 1.4s 1 ease-in-out both;
   animation: temperature-change 1.4s 1 ease-in-out both;
 }
 #tachometer-icon-container .tachometer-icon .tachometer-needle {
+  -webkit-transform: rotate(30deg);
+  -webkit-transform-origin: 40% 54%;
   transform: rotate(30deg);
   transform-origin: 40% 54%;
 }
 #tachometer-icon-container .tachometer-icon .tachometer-needle-active {
+  -webkit-animation: tachometer-change 1.4s 1 ease-in-out both;
   animation: tachometer-change 1.4s 1 ease-in-out both;
 }
 #ventilation-icon-container .ventilation-icon .ventilation-fumes-1 {
+  -webkit-transform: translate(81%, 0%);
   transform: translate(81%, 0%);
 }
 #ventilation-icon-container .ventilation-icon .ventilation-fumes-2 {
+  -webkit-transform: translate(97%, 0%);
   transform: translate(97%, 0%);
 }
 #ventilation-icon-container .ventilation-icon .ventilation-fumes-3 {
+  -webkit-transform: translate(111%, 0%);
   transform: translate(111%, 0%);
 }
 #ventilation-icon-container .ventilation-icon .ventilation-fumes-active-1 {
+  -webkit-animation: ventilation-change-1 1.4s 1 ease-in-out both;
   animation: ventilation-change-1 1.4s 1 ease-in-out both;
 }
 #ventilation-icon-container .ventilation-icon .ventilation-fumes-active-2 {
+  -webkit-animation: ventilation-change-2 1.4s 1 ease-in-out both;
+  -webkit-animation-delay: 0.16s;
   animation: ventilation-change-2 1.4s 1 ease-in-out both;
   animation-delay: 0.16s;
 }
 #ventilation-icon-container .ventilation-icon .ventilation-fumes-active-3 {
+  -webkit-animation: ventilation-change-3 1.4s 1 ease-in-out both;
+  -webkit-animation-delay: 0.32s;
   animation: ventilation-change-3 1.4s 1 ease-in-out both;
   animation-delay: 0.32s;
+}
+@-webkit-keyframes temperature-change {
+  0% {
+    y: 147;
+  }
+  33% {
+    y: 142;
+  }
+  66% {
+    y: 153;
+  }
+  100% {
+    y: 147;
+  }
 }
 @keyframes temperature-change {
   0% {
@@ -46,46 +72,100 @@
     y: 147;
   }
 }
+@-webkit-keyframes tachometer-change {
+  0% {
+    -webkit-transform: rotate(30deg);
+  }
+  33% {
+    -webkit-transform: rotate(10deg);
+  }
+  66% {
+    -webkit-transform: rotate(61deg);
+  }
+  100% {
+    -webkit-transform: rotate(30deg);
+  }
+}
 @keyframes tachometer-change {
   0% {
+    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
   }
   33% {
+    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
   }
   66% {
+    -webkit-transform: rotate(61deg);
     transform: rotate(61deg);
   }
   100% {
+    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
+  }
+}
+@-webkit-keyframes ventilation-change-1 {
+  0% {
+    -webkit-transform: translate(81%, 0%);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(81%, -34%);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes ventilation-change-2 {
+  0% {
+    -webkit-transform: translate(97%, 0%);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(97%, -34%);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes ventilation-change-3 {
+  0% {
+    -webkit-transform: translate(111%, 0%);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(111%, -34%);
+    opacity: 0;
   }
 }
 @keyframes ventilation-change-1 {
   0% {
+    -webkit-transform: translate(81%, 0%);
     transform: translate(81%, 0%);
     opacity: 1;
   }
   100% {
+    -webkit-transform: translate(81%, -34%);
     transform: translate(81%, -34%);
     opacity: 0;
   }
 }
 @keyframes ventilation-change-2 {
   0% {
+    -webkit-transform: translate(97%, 0%);
     transform: translate(97%, 0%);
     opacity: 1;
   }
   100% {
+    -webkit-transform: translate(97%, -34%);
     transform: translate(97%, -34%);
     opacity: 0;
   }
 }
 @keyframes ventilation-change-3 {
   0% {
+    -webkit-transform: translate(111%, 0%);
     transform: translate(111%, 0%);
     opacity: 1;
   }
   100% {
+    -webkit-transform: translate(111%, -34%);
     transform: translate(111%, -34%);
     opacity: 0;
   }
