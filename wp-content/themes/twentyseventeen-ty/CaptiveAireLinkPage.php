@@ -1118,7 +1118,7 @@ TEXT-DECORATION: none
                         <div class="inline-wrapper">
                             <div class="remote-capabilities ckv">
                               <div class="icon" id="ventilation-icon-container">
-                                  <svg class="ventilation-icon"  version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                  <svg class="ventilation-icon"  version="1.1" viewBox="-6 -8 55 55" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                                     <metadata>
                                       <rdf:RDF>
                                       <cc:Work rdf:about="">

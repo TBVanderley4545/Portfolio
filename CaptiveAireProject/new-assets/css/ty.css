@@ -12,6 +12,13 @@
 #tachometer-icon-container .tachometer-icon .tachometer-needle-active {
   animation: tachometer-change 1.4s 1 ease-in-out both;
 }
+#ventilation-icon-container .ventilation-icon .ventilation-fumes {
+  transform: rotate(30deg);
+  transform-origin: 40% 54%;
+}
+#ventilation-icon-container .ventilation-icon .ventilation-fumes-active {
+  animation: ventilation-change 1.4s 1 ease-in-out both;
+}
 @keyframes temperature-change {
   0% {
     y: 147;
@@ -27,6 +34,20 @@
   }
 }
 @keyframes tachometer-change {
+  0% {
+    transform: rotate(30deg);
+  }
+  33% {
+    transform: rotate(10deg);
+  }
+  66% {
+    transform: rotate(61deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+@keyframes ventilation-change {
   0% {
     transform: rotate(30deg);
   }
