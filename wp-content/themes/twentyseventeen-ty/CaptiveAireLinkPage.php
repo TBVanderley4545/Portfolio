@@ -1135,17 +1135,17 @@ TEXT-DECORATION: none
                                       <path d="m159.52 136.71h16.395l12.851 8.2682h-41.719z"/>
                                       </g>
                                       <g stroke="#fff">
-                                      <g transform="translate(45.035)">
+                                      <g class="ventilation-fumes ventilation-fumes-1" transform="translate(45.035)">
                                         <path d="m115.35 156.5c-0.52039 0.63413-0.90812 1.7084-0.70871 2.5041 0.17854 0.71245 0.45352 1.315 0.75595 1.9844 0.33764 0.73984 0.40402 0.85856 0.42842 2.5989-0.3002 1.4658-0.64183 1.6574-1.1371 2.3148" stroke="#fff" stroke-width="2.165"/>
                                         <ellipse transform="rotate(36.374)" cx="185.68" cy="57.628" rx="1.0867" ry="1.1694" stroke-width="0"/>
                                         <ellipse transform="rotate(36.374)" cx="190.72" cy="65.43" rx="1.0867" ry="1.1694" stroke-width="0"/>
                                       </g>
-                                      <g transform="translate(53.067)">
+                                      <g class="ventilation-fumes ventilation-fumes-2" transform="translate(53.067)">
                                         <path d="m115.35 156.5c-0.52039 0.63413-0.90812 1.7084-0.70871 2.5041 0.17854 0.71245 0.45352 1.315 0.75595 1.9844 0.33764 0.73984 0.40402 0.85856 0.42842 2.5989-0.3002 1.4658-0.64183 1.6574-1.1371 2.3148" stroke="#fff" stroke-width="2.165"/>
                                         <ellipse transform="rotate(36.374)" cx="185.68" cy="57.628" rx="1.0867" ry="1.1694" stroke-width="0"/>
                                         <ellipse transform="rotate(36.374)" cx="190.72" cy="65.43" rx="1.0867" ry="1.1694" stroke-width="0"/>
                                       </g>
-                                      <g transform="translate(61.288)">
+                                      <g class="ventilation-fumes ventilation-fumes-3" transform="translate(61.288)">
                                         <path d="m115.35 156.5c-0.52039 0.63413-0.90812 1.7084-0.70871 2.5041 0.17854 0.71245 0.45352 1.315 0.75595 1.9844 0.33764 0.73984 0.40402 0.85856 0.42842 2.5989-0.3002 1.4658-0.64183 1.6574-1.1371 2.3148" stroke="#fff" stroke-width="2.165"/>
                                         <ellipse transform="rotate(36.374)" cx="185.68" cy="57.628" rx="1.0867" ry="1.1694" stroke-width="0"/>
                                         <ellipse transform="rotate(36.374)" cx="190.72" cy="65.43" rx="1.0867" ry="1.1694" stroke-width="0"/>
