@@ -2,9 +2,11 @@ $(document).ready(function () {
 
   let thermometerIcon = document.getElementById("thermometer-icon");
 
-  thermometerIcon.onclick = function() {
-    alert("hello, there");
-  }
+  thermometerIcon.addEventListener("mouseover", function() {
+    let thermometerFill = document.getElementsByClassName("thermometer-fill");
+
+    thermometerFill.classList.add("thermometer-fill-active");
+  });
 
   // This code is being used to target the thermometer icon animation.
   $('#thermometer-icon').hover(
