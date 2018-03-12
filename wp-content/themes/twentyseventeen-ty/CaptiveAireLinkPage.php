@@ -1117,7 +1117,43 @@ TEXT-DECORATION: none
                     <div class="flex-item">
                         <div class="inline-wrapper">
                             <div class="remote-capabilities ckv">
-                                <div class="icon"></div>
+                              <div class="icon" id="ventilation-icon-container">
+                                  <svg class="ventilation-icon"  version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                    <metadata>
+                                      <rdf:RDF>
+                                      <cc:Work rdf:about="">
+                                        <dc:format>image/svg+xml</dc:format>
+                                        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                                        <dc:title/>
+                                      </cc:Work>
+                                      </rdf:RDF>
+                                    </metadata>
+                                    <g transform="translate(-146.35 -126.79)" fill="#fff">
+                                      <g stroke-width="0">
+                                      <rect x="160.61" y="126.79" width="14.836" height="8.5045" ry="0"/>
+                                      <rect x="146.35" y="146.68" width="43.388" height="5.7169" ry="0"/>
+                                      <path d="m159.52 136.71h16.395l12.851 8.2682h-41.719z"/>
+                                      </g>
+                                      <g stroke="#fff">
+                                      <g transform="translate(45.035)">
+                                        <path d="m115.35 156.5c-0.52039 0.63413-0.90812 1.7084-0.70871 2.5041 0.17854 0.71245 0.45352 1.315 0.75595 1.9844 0.33764 0.73984 0.40402 0.85856 0.42842 2.5989-0.3002 1.4658-0.64183 1.6574-1.1371 2.3148" stroke="#fff" stroke-width="2.165"/>
+                                        <ellipse transform="rotate(36.374)" cx="185.68" cy="57.628" rx="1.0867" ry="1.1694" stroke-width="0"/>
+                                        <ellipse transform="rotate(36.374)" cx="190.72" cy="65.43" rx="1.0867" ry="1.1694" stroke-width="0"/>
+                                      </g>
+                                      <g transform="translate(53.067)">
+                                        <path d="m115.35 156.5c-0.52039 0.63413-0.90812 1.7084-0.70871 2.5041 0.17854 0.71245 0.45352 1.315 0.75595 1.9844 0.33764 0.73984 0.40402 0.85856 0.42842 2.5989-0.3002 1.4658-0.64183 1.6574-1.1371 2.3148" stroke="#fff" stroke-width="2.165"/>
+                                        <ellipse transform="rotate(36.374)" cx="185.68" cy="57.628" rx="1.0867" ry="1.1694" stroke-width="0"/>
+                                        <ellipse transform="rotate(36.374)" cx="190.72" cy="65.43" rx="1.0867" ry="1.1694" stroke-width="0"/>
+                                      </g>
+                                      <g transform="translate(61.288)">
+                                        <path d="m115.35 156.5c-0.52039 0.63413-0.90812 1.7084-0.70871 2.5041 0.17854 0.71245 0.45352 1.315 0.75595 1.9844 0.33764 0.73984 0.40402 0.85856 0.42842 2.5989-0.3002 1.4658-0.64183 1.6574-1.1371 2.3148" stroke="#fff" stroke-width="2.165"/>
+                                        <ellipse transform="rotate(36.374)" cx="185.68" cy="57.628" rx="1.0867" ry="1.1694" stroke-width="0"/>
+                                        <ellipse transform="rotate(36.374)" cx="190.72" cy="65.43" rx="1.0867" ry="1.1694" stroke-width="0"/>
+                                      </g>
+                                      </g>
+                                    </g>
+                                  </svg>
+                                </div>
                                 <h4>Commercial Kitchen Ventilation</h4>
                                 <ul class="ckv-list">
                                     <li><span>Supervise critical CORE Fire Protection System components</span></li>
