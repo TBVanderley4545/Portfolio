@@ -14,6 +14,10 @@ $(document).ready(function () {
   let ventilationFumes2 = document.getElementsByClassName("ventilation-fumes")[1];
   let ventilationFumes3 = document.getElementsByClassName("ventilation-fumes")[2];
 
+  // Light variables
+  let lightIcon = document.getElementById("ventilation-icon-container");
+  let lightBeams = document.getElementsByClassName("ventilation-fumes");
+
 
   // This code is being used to target the thermometer icon animation.
   thermometerIcon.addEventListener("mouseover", function () {
@@ -69,6 +73,23 @@ $(document).ready(function () {
 
     if (ventilationFumes3.classList.contains("ventilation-fumes-active-3")) {
       ventilationFumes3.classList.remove("ventilation-fumes-active-3");
+    }
+  });
+
+  // This code is being use to target the light animation.
+  lightIcon.addEventListener("mouseover", function () {
+    for (var i = 0; i < lightBeams.length; i++) {
+      if (!lightBeams[i].classList.contains("tachometer-needle-active")) {
+        lightBeams[i].classList.add("light-beam-active");
+      }
+    }
+  });
+
+  tachometerIcon.addEventListener("mouseout", function () {
+    for (var i = 0; i < lightBeams.length; i++) {
+      if (lightBeams[i].classList.contains("tachometer-needle-active")) {
+        lightBeams[i].classList.remove("light-beam-active");
+      }
     }
   });
 });

@@ -44,6 +44,13 @@
   animation: ventilation-change-3 1.4s 1 ease-in-out both;
   animation-delay: 0.32s;
 }
+#light-icon-container .light-icon .light-beam {
+  opacity: 0;
+}
+#light-icon-container .light-icon .light-beam-active {
+  -webkit-animation: light-change 1.4s 1 ease-in-out both;
+  animation: light-change 1.4s 1 ease-in-out both;
+}
 @-webkit-keyframes temperature-change {
   0% {
     y: 147;
@@ -168,6 +175,22 @@
     -webkit-transform: translate(111%, -34%);
     transform: translate(111%, -34%);
     opacity: 0;
+  }
+}
+@-webkit-keyframes light-change {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes light-change {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

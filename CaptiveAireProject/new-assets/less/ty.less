@@ -66,6 +66,19 @@
   }
 }
 
+#light-icon-container {
+  .light-icon {
+    .light-beam {
+      opacity: 0;
+    }
+
+    .light-beam-active {
+      -webkit-animation: light-change 1.4s 1 ease-in-out both;
+      animation: light-change 1.4s 1 ease-in-out both;
+    }
+  }
+}
+
 // Define the keyframe animation for the thermometer svg.
 @-webkit-keyframes temperature-change {
   0% {
@@ -166,8 +179,6 @@
   }
 }
 
-
-
 @keyframes ventilation-change-1 {
   0% {
     -webkit-transform: translate(81%, 0%);
@@ -204,5 +215,30 @@
     -webkit-transform: translate(111%, -34%);
     transform: translate(111%, -34%);
     opacity: 0;
+  }
+}
+
+// Define the keyframe animation for the light svg.
+@-webkit-keyframes light-change {
+  0% {
+    // -webkit-transform: rotate(30deg);
+    opacity: 0;
+  }
+  100% {
+    // -webkit-transform: rotate(30deg);
+    opacity: 1;
+  }
+}
+
+@keyframes light-change {
+  0% {
+    // -webkit-transform: rotate(30deg);
+    // transform: rotate(30deg);
+    opacity: 0;
+  }
+  100% {
+    // -webkit-transform: rotate(30deg);
+    // transform: rotate(30deg);
+    opacity:1;
   }
 }
