@@ -624,6 +624,7 @@ TEXT-DECORATION: none
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
 <script src="/CaptiveAireProject/JS/ng-cas.js"></script>
 <link rel="stylesheet" href="/CaptiveAireProject/new-assets/css/ty.css"
+<script src="/CaptiveAireProject/new-assets/js/ty.js"></script>
 
 <link rel="shortcut icon" href="/CaptiveAireProject/favicon.ico" />
 
