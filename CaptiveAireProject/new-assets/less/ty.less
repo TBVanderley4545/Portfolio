@@ -31,8 +31,8 @@
 
           .easy-installation-icon {
             .transmission-circle {
-              -webkit-animation: transmission-change 1.4s infinite linear both;
-              animation: transmission-change 1.4s infinite linear both;
+              -webkit-animation: transmission-change .5s infinite linear both;
+              animation: transmission-change .5s infinite linear both;
             }
           }
         }
@@ -301,24 +301,19 @@
 // Define the keyframe animation for the easy installation svg.
 @-webkit-keyframes transmission-change {
   0% {
-    // -webkit-transform: rotate(30deg);
-    opacity: 0;
+    -webkit-transform: translateX(0%);
   }
   100% {
-    // -webkit-transform: rotate(30deg);
-    opacity: 1;
+    -webkit-transform: translateX(2.55%);
   }
 }
-
 @keyframes transmission-change {
   0% {
-    // -webkit-transform: rotate(30deg);
-    // transform: rotate(30deg);
-    opacity: 0;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
   }
   100% {
-    // -webkit-transform: rotate(30deg);
-    // transform: rotate(30deg);
-    opacity: 1;
+    -webkit-transform: translateX(2.55%);
+    transform: translateX(2.55%);
   }
 }

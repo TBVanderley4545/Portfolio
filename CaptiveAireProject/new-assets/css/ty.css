@@ -17,8 +17,8 @@
     max-height: 213.766px;
   }
   html #caslink-wrapper section.installation .graphic-container .easy-installation-icon .transmission-circle {
-    -webkit-animation: transmission-change 1.4s infinite linear both;
-    animation: transmission-change 1.4s infinite linear both;
+    -webkit-animation: transmission-change 0.5s infinite linear both;
+    animation: transmission-change 0.5s infinite linear both;
   }
 }
 #caslink-wrapper section.interface .flex-direction-nav a.flex-next:hover,
@@ -224,18 +224,20 @@
 }
 @-webkit-keyframes transmission-change {
   0% {
-    opacity: 0;
+    -webkit-transform: translateX(0%);
   }
   100% {
-    opacity: 1;
+    -webkit-transform: translateX(2.55%);
   }
 }
 @keyframes transmission-change {
   0% {
-    opacity: 0;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
   }
   100% {
-    opacity: 1;
+    -webkit-transform: translateX(2.55%);
+    transform: translateX(2.55%);
   }
 }
 
