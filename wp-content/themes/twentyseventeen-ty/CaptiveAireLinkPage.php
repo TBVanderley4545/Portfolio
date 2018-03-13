@@ -1455,9 +1455,7 @@ TEXT-DECORATION: none
 
                 <p>Simply connect the factory-installed CASLink communication module to an available Ethernet&nbsp;connection.</p>
 
-                <div class="graphic-container">
-                    <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/install-light-mask.png" />
-                    
+                <div class="graphic-container">                   
                     <svg class="easy-installation-icon" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                       <metadata>
                         <rdf:RDF>
