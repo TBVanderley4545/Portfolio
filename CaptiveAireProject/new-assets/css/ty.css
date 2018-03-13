@@ -12,6 +12,11 @@
     top: 0px;
   }
 }
+@media (min-width: 736px) {
+  html #caslink-wrapper section.installation .graphic-container {
+    max-height: 213.766px;
+  }
+}
 #caslink-wrapper section.interface .flex-direction-nav a.flex-next:hover,
 #caslink-wrapper section.interface .flex-direction-nav a.flex-prev:hover {
   transform: scale(1.3);

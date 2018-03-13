@@ -1510,12 +1510,12 @@ TEXT-DECORATION: none
                         </g>
                         </g>
                         <g stroke-width="0">
-                        <circle cx="182.43" cy="59.297" r="2.8938"/>
-                        <circle cx="192.86" cy="59.297" r="2.8938" display="block"/>
-                        <circle cx="203.3" cy="59.297" r="2.8938" display="block"/>
-                        <circle cx="213.73" cy="59.297" r="2.8938" display="block"/>
-                        <circle cx="224.17" cy="59.297" r="2.8938" display="block"/>
-                        <circle cx="172" cy="59.297" r="2.8938" display="block"/>
+                        <circle class="transmission-circle" cx="182.43" cy="59.297" r="2.8938"/>
+                        <circle class="transmission-circle" cx="192.86" cy="59.297" r="2.8938" display="block"/>
+                        <circle class="transmission-circle" cx="203.3" cy="59.297" r="2.8938" display="block"/>
+                        <circle class="transmission-circle" cx="213.73" cy="59.297" r="2.8938" display="block"/>
+                        <circle class="transmission-circle" cx="224.17" cy="59.297" r="2.8938" display="block"/>
+                        <circle class="transmission-circle" cx="172" cy="59.297" r="2.8938" display="block"/>
                         </g>
                         <g transform="matrix(-1 0 0 1 391.78 -238.07)" display="block">
                         <g stroke-width="0">
