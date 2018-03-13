@@ -222,5 +222,21 @@
     opacity: 1;
   }
 }
+@-webkit-keyframes transmission-change {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes transmission-change {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /*# sourceMappingURL=ty.css.map */
