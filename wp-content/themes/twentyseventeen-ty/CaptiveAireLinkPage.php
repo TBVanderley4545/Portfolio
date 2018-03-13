@@ -1458,7 +1458,7 @@ TEXT-DECORATION: none
                 <div class="graphic-container">
                     <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/install-light-mask.png" />
                     
-                    <svg class="easy-installation-icon" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                    <svg class="easy-installation-icon" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                       <metadata>
                         <rdf:RDF>
                         <cc:Work rdf:about="">
@@ -1570,7 +1570,7 @@ TEXT-DECORATION: none
                         <rect x="357.56" y="191.88" width="10.381" height="2.9177" rx="0" ry="0"/>
                         <rect x="357.84" y="199.78" width="6.8553" height="4.7561" rx="2.2989" ry="1.3053" display="block"/>
                         </g>
-                        <g transform="translate(0,-240)" fill="#fff" stroke-width="0">
+                        <g transform="translate(7,-240)" fill="#fff" stroke-width="0">
                         <path d="m44.179 390.4v50.514h18.076v-50.514zm14.775 1.6348h0.35352c0.55446 0 1 0.44554 1 1v45.598c0 0.55446-0.44554 1-1 1h-0.35352c-0.55446 0-1-0.44554-1-1v-45.598c0-0.55446 0.44554-1 1-1zm-11.705 2.8711h8.4375c0.51938 0 0.9375 0.41813 0.9375 0.9375v9.1875c0 0.51938-0.41812 0.9375-0.9375 0.9375h-8.4375c-0.51938 0-0.9375-0.41812-0.9375-0.9375v-9.1875c0-0.51937 0.41812-0.9375 0.9375-0.9375zm0 30.494h8.4375c0.51938 0 0.9375 0.41812 0.9375 0.9375v9.1875c0 0.51937-0.41812 0.9375-0.9375 0.9375h-8.4375c-0.51938 0-0.9375-0.41813-0.9375-0.9375v-9.1875c0-0.51938 0.41812-0.9375 0.9375-0.9375z"/>
                         <g transform="translate(28.375)">
                           <path transform="translate(1.6867 118.38)" d="m14.764 261.43c-2.2144 0-3.9961 1.7817-3.9961 3.9961v63.891c0 2.2144 1.7817 3.9961 3.9961 3.9961h0.23242c-0.08696-0.28179-0.14648-0.57564-0.14648-0.88672 0-0.19273 0.02229-0.38003 0.05664-0.5625h-0.41406c-1.2038 0-2.1738-0.97-2.1738-2.1738v-64.531c0-1.2038 0.97-2.1738 2.1738-2.1738h0.75781v-1.5547zm16.518 0v1.5547h0.43555c1.2038 0 2.1738 0.97 2.1738 2.1738v64.531c0 1.1577-0.89966 2.0897-2.0391 2.1602 0.03598 0.18656 0.05664 0.3788 0.05664 0.57617 0 0.30684-0.05984 0.59658-0.14453 0.875 2.1575-0.0641 3.8789-1.8108 3.8789-3.9844v-63.891c0-2.2144-1.7836-3.9961-3.998-3.9961z"/>
