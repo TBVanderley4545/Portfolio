@@ -17,8 +17,8 @@
     max-height: 213.766px;
   }
   html #caslink-wrapper section.installation .graphic-container .easy-installation-icon .transmission-circle {
-    -webkit-animation: transmission-change 1.4s infinte linear both;
-    animation: transmission-change 1.4s infinte linear both;
+    -webkit-animation: transmission-change 1.4s infinite linear both;
+    animation: transmission-change 1.4s infinite linear both;
   }
 }
 #caslink-wrapper section.interface .flex-direction-nav a.flex-next:hover,
