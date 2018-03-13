@@ -1457,8 +1457,8 @@ TEXT-DECORATION: none
 
                 <div class="graphic-container">
                     <img src="/CaptiveAireProject/CatalogContent/ElectricControls/CASLink/img/install-light-mask.png" />
-
-                    <svg id="svg" width="399.37" height="115.83" display="block" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                    
+                    <svg class="easy-installation-icon" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                       <metadata>
                         <rdf:RDF>
                         <cc:Work rdf:about="">
@@ -1588,6 +1588,7 @@ TEXT-DECORATION: none
                         </g>
                       </g>
                     </svg>
+
 
                     <h4 id="ethernet">Ethernet Cable</h4>
                     <h4 id="module">CASLink Communication Module</h4>
