@@ -28,13 +28,13 @@ $(document).ready(function () {
 
 
   // This code is being used to target the thermometer icon animation.
-  thermometerIcon.addEventListener("mouseover", function () {
+  thermometerIcon.addEventListener("mouseenter", function () {
     if (!thermometerFill.classList.contains("thermometer-fill-active")) {
       thermometerFill.classList.add("thermometer-fill-active");
     }
   });
 
-  thermometerIcon.addEventListener("mouseout", function () {
+  thermometerIcon.addEventListener("mouseleave", function () {
     if (thermometerFill.classList.contains("thermometer-fill-active")) {
       thermometerFill.classList.remove("thermometer-fill-active");
     }
@@ -42,13 +42,13 @@ $(document).ready(function () {
 
 
   // This code is being use to target the tachometer animation.
-  tachometerIcon.addEventListener("mouseover", function () {
+  tachometerIcon.addEventListener("mouseenter", function () {
     if (!tachometerNeedle.classList.contains("tachometer-needle-active")) {
       tachometerNeedle.classList.add("tachometer-needle-active");
     }
   });
 
-  tachometerIcon.addEventListener("mouseout", function () {
+  tachometerIcon.addEventListener("mouseleave", function () {
     if (tachometerNeedle.classList.contains("tachometer-needle-active")) {
       tachometerNeedle.classList.remove("tachometer-needle-active");
     }
@@ -56,7 +56,7 @@ $(document).ready(function () {
 
 
   // This code is being use to target the Ventilation Fumes animation.
-  ventilationIcon.addEventListener("mouseover", function () {
+  ventilationIcon.addEventListener("mouseenter", function () {
     if (!ventilationFumes1.classList.contains("ventilation-fumes-active-1")) {
       ventilationFumes1.classList.add("ventilation-fumes-active-1");
     }
@@ -70,7 +70,7 @@ $(document).ready(function () {
     }
   });
 
-  ventilationIcon.addEventListener("mouseout", function () {
+  ventilationIcon.addEventListener("mouseleave", function () {
     if (ventilationFumes1.classList.contains("ventilation-fumes-active-1")) {
       ventilationFumes1.classList.remove("ventilation-fumes-active-1");
     }
@@ -85,7 +85,7 @@ $(document).ready(function () {
   });
 
   // This code is being use to target the light animation.
-  lightIcon.addEventListener("mouseover", function () {
+  lightIcon.addEventListener("mouseenter", function () {
     for (var i = 0; i < lightBeams.length; i++) {
       if (!lightBeams[i].classList.contains("light-beam-active")) {
         lightBeams[i].classList.add("light-beam-active");
@@ -93,7 +93,7 @@ $(document).ready(function () {
     }
   });
 
-  lightIcon.addEventListener("mouseout", function () {
+  lightIcon.addEventListener("mouseleave", function () {
     for (var i = 0; i < lightBeams.length; i++) {
       if (lightBeams[i].classList.contains("light-beam-active")) {
         lightBeams[i].classList.remove("light-beam-active");
