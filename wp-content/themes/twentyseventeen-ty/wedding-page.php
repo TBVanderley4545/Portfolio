@@ -30,8 +30,7 @@ Template Name: 2 - Wedding
           <span>Wedding</span>
         </h1>
         <h2>Hope Valley Country Club - Durham, NC</h2>
-        <h3>June 30, 2018 @ 4:30 PM |
-          <span class=date-counter></span> days left!</h3>
+        <h3>Thanks for coming!</h3>
       </div>
       <div class="primary-banner-image right-image">
         <img src="/assets/img/Tyler and Alexandra.jpg" alt="Tyler and Alexandra">
